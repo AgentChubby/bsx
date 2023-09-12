@@ -1,0 +1,1201 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local speed = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Button2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Shadow_2 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Button2_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Shadow_3 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local shart = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Shadow_4 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local ping = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Shadow_5 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local x = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Shadow_6 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.828856528, 0, 0.412718207, 0)
+Frame.Size = UDim2.new(0.16653873, 0, 0.546134651, 0)
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))}
+UIGradient.Parent = Frame
+
+speed.Name = "speed"
+speed.Parent = Frame
+speed.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+speed.BorderSizePixel = 0
+speed.Position = UDim2.new(0.573732436, 0, 0.776736319, 0)
+speed.Size = UDim2.new(0.386638284, 0, 0.0681712702, 0)
+speed.ZIndex = 2
+speed.Font = Enum.Font.GothamMedium
+speed.Text = ""
+speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+speed.TextScaled = true
+speed.TextSize = 14.000
+speed.TextWrapped = true
+
+UICorner_2.Parent = speed
+
+Shadow.Name = "Shadow"
+Shadow.Parent = speed
+Shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow.BorderSizePixel = 0
+Shadow.Position = UDim2.new(-0.0120628076, 0, 0.0411699377, 0)
+Shadow.Size = UDim2.new(1.01763725, 0, 0.895360827, 4)
+
+UICorner_3.Parent = Shadow
+
+TextLabel.Parent = speed
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.496755868, 0, 0.529083729, 0)
+TextLabel.Size = UDim2.new(1.13904428, -20, 1.37816203, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamMedium
+TextLabel.Text = "OFF"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0227017365, 0, 0.924653471, 0)
+ImageLabel.Size = UDim2.new(0.099999994, 0, 0.0605578385, 0)
+ImageLabel.Image = "rbxassetid://14761795590"
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = ImageLabel
+
+TextLabel_2.Parent = Frame
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.267507017, 0, 0.811014593, 0)
+TextLabel_2.Size = UDim2.new(0.436640769, 0, 0.0908315629, 0)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "Egg Speed"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.496102929, 0, 0.614224553, 0)
+TextLabel_3.Size = UDim2.new(0.476756603, 0, 0.0432679355, 0)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamMedium
+TextLabel_3.Text = "Auto Farming"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.45715031, 0, 0.96222198, 0)
+TextLabel_4.Size = UDim2.new(0.609183252, 0, 0.0751372054, 0)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.GothamMedium
+TextLabel_4.Text = "Chub211's BSX Script"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Button2.Name = "Button2"
+Button2.Parent = Frame
+Button2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button2.BorderSizePixel = 0
+Button2.Position = UDim2.new(0.573732436, 0, 0.684191704, 0)
+Button2.Size = UDim2.new(0.386638284, 0, 0.0681712851, 0)
+Button2.ZIndex = 2
+Button2.Font = Enum.Font.GothamMedium
+Button2.Text = ""
+Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextScaled = true
+Button2.TextSize = 14.000
+Button2.TextWrapped = true
+
+UICorner_5.Parent = Button2
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = Button2
+Shadow_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Position = UDim2.new(-0.0120628076, 0, 0.0536720008, 0)
+Shadow_2.Size = UDim2.new(1.01763725, 0, 0.895360768, 4)
+
+UICorner_6.Parent = Shadow_2
+
+TextLabel_5.Parent = Button2
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.496755868, 0, 0.541583717, 0)
+TextLabel_5.Size = UDim2.new(1.13904428, -20, 1.37816191, -20)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.GothamMedium
+TextLabel_5.Text = "OFF"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.248661876, 0, 0.718469977, 0)
+TextLabel_6.Size = UDim2.new(0.398950487, 0, 0.090831548, 0)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.GothamMedium
+TextLabel_6.Text = "Auto Ban"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.496103108, 0, 0.0512522236, 0)
+TextLabel_7.Size = UDim2.new(0.476756603, 0, 0.0560235791, 0)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.GothamMedium
+TextLabel_7.Text = "Webhook"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+Button2_2.Name = "Button2"
+Button2_2.Parent = Frame
+Button2_2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button2_2.BorderSizePixel = 0
+Button2_2.Position = UDim2.new(0.573732436, 0, 0.219941169, 0)
+Button2_2.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
+Button2_2.ZIndex = 2
+Button2_2.Font = Enum.Font.GothamMedium
+Button2_2.Text = ""
+Button2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2_2.TextScaled = true
+Button2_2.TextSize = 14.000
+Button2_2.TextWrapped = true
+
+UICorner_7.Parent = Button2_2
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = Button2_2
+Shadow_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Position = UDim2.new(-0.0120629193, 0, 0.0306840111, 0)
+Shadow_3.Size = UDim2.new(1.01763725, 0, 0.939332545, 4)
+
+UICorner_8.Parent = Shadow_3
+
+TextLabel_8.Parent = Button2_2
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.496756166, 0, 0.523133934, 0)
+TextLabel_8.Size = UDim2.new(1.13904428, -20, 1.21273756, -20)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.GothamMedium
+TextLabel_8.Text = "ON"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = Frame
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.263723403, 0, 0.266648114, 0)
+TextLabel_9.Size = UDim2.new(0.527447701, 0, 0.123765513, 0)
+TextLabel_9.ZIndex = 2
+TextLabel_9.Font = Enum.Font.GothamMedium
+TextLabel_9.Text = "Hourly Update"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextWrapped = true
+
+shart.Name = "shart"
+shart.Parent = Frame
+shart.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+shart.BorderSizePixel = 0
+shart.Position = UDim2.new(0.573732436, 0, 0.0938414633, 0)
+shart.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
+shart.ZIndex = 2
+shart.Font = Enum.Font.GothamMedium
+shart.Text = ""
+shart.TextColor3 = Color3.fromRGB(255, 255, 255)
+shart.TextScaled = true
+shart.TextSize = 14.000
+shart.TextWrapped = true
+
+UICorner_9.Parent = shart
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = shart
+Shadow_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Position = UDim2.new(-0.0120629193, 0, 0.0306840111, 0)
+Shadow_4.Size = UDim2.new(1.01763725, 0, 0.939332545, 4)
+
+UICorner_10.Parent = Shadow_4
+
+TextLabel_10.Parent = shart
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.496756166, 0, 0.523133934, 0)
+TextLabel_10.Size = UDim2.new(1.13904428, -20, 1.21273756, -20)
+TextLabel_10.ZIndex = 2
+TextLabel_10.Font = Enum.Font.GothamMedium
+TextLabel_10.Text = "START"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = Frame
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.267507017, 0, 0.142014757, 0)
+TextLabel_11.Size = UDim2.new(0.436640769, 0, 0.0680471212, 0)
+TextLabel_11.ZIndex = 2
+TextLabel_11.Font = Enum.Font.GothamMedium
+TextLabel_11.Text = "Webhook"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+TextLabel_12.Parent = Frame
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.263723403, 0, 0.389815152, 0)
+TextLabel_12.Size = UDim2.new(0.527447701, 0, 0.123765513, 0)
+TextLabel_12.ZIndex = 2
+TextLabel_12.Font = Enum.Font.GothamMedium
+TextLabel_12.Text = "Ping Update"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 20.000
+TextLabel_12.TextWrapped = true
+
+ping.Name = "ping"
+ping.Parent = Frame
+ping.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+ping.BorderSizePixel = 0
+ping.Position = UDim2.new(0.573732436, 0, 0.343108326, 0)
+ping.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
+ping.ZIndex = 2
+ping.Font = Enum.Font.GothamMedium
+ping.Text = ""
+ping.TextColor3 = Color3.fromRGB(255, 255, 255)
+ping.TextScaled = true
+ping.TextSize = 14.000
+ping.TextWrapped = true
+
+UICorner_11.Parent = ping
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = ping
+Shadow_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Position = UDim2.new(-0.0120629193, 0, 0.0306840111, 0)
+Shadow_5.Size = UDim2.new(1.01763725, 0, 0.939332545, 4)
+
+UICorner_12.Parent = Shadow_5
+
+TextLabel_13.Parent = ping
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.496756166, 0, 0.523133934, 0)
+TextLabel_13.Size = UDim2.new(1.13904428, -20, 1.21273756, -20)
+TextLabel_13.ZIndex = 2
+TextLabel_13.Font = Enum.Font.GothamMedium
+TextLabel_13.Text = "OFF"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+x.Name = "x"
+x.Parent = Frame
+x.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+x.BorderSizePixel = 0
+x.Position = UDim2.new(0.910939515, 0, -0.00180255773, 0)
+x.Size = UDim2.new(0.0889268592, 0, 0.0532419644, 0)
+x.ZIndex = 2
+x.Font = Enum.Font.GothamMedium
+x.Text = "stop"
+x.TextColor3 = Color3.fromRGB(255, 255, 255)
+x.TextScaled = true
+x.TextSize = 14.000
+x.TextWrapped = true
+
+UICorner_13.Parent = x
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = x
+Shadow_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Position = UDim2.new(-1.03875927e-05, 0, 0.0411725901, 0)
+Shadow_6.Size = UDim2.new(1.00556827, 0, 0.857797086, 4)
+
+UICorner_14.Parent = Shadow_6
+
+TextLabel_14.Parent = x
+TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.561804116, 0, 0.529084623, 0)
+TextLabel_14.Size = UDim2.new(1.57992756, -20, 1.56598115, -20)
+TextLabel_14.ZIndex = 2
+TextLabel_14.Font = Enum.Font.GothamMedium
+TextLabel_14.Text = "X"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+
+local function LLZWLU_fake_script() 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local started=false
+	script.Parent.Frame.shart.MouseButton1Click:connect(function()
+		started=true
+		script.Parent.Frame.shart.Shadow.BackgroundColor3=Color3.new(0.32549, 0.32549, 0.32549)
+		script.Parent.Frame.shart.TextLabel.Text='ON'
+	end)
+	repeat wait(1) until started==true
+	local pr=game.Players.LocalPlayer
+	httpservice = game:GetService("HttpService")
+	local url='https://discord.com/api/webhooks/1146617101491109939/lCKm0XcEnsdtplh7-5RYDjy9OuYD984qIdrBFe-PXbkz8jVqLSt0TL4ltr5JVorOPjLh' -- change this to your webhook (Disconnects and Hatches)
+	local url2='https://discord.com/api/webhooks/1146617189638619186/sVrlsrpOjjw7cGPvrQIV6z-339o-3J_THpc2e6OW6RJyYk8882kwdE26C5rnpnYqZhll' -- change this to your webhook (Hourly updates)
+	local RunService = game:GetService("RunService")
+	local ping='<@899342084304175165>' -- change this to your discord user ID
+	local pingon=false -- turn this to false if you do not want to get messages from ping
+	local results
+	local found=false
+	local hatcher
+	local rarity
+	local hourw=true
+	local primordials=0
+	local dawg=0
+	local autoban=false
+	local eggspeed=false
+	local secrets=0
+	local leaver
+	local toots
+	for _, v in ipairs(pr.leaderstats:GetChildren()) do
+		if string.find(v.Name,'Eggs') then
+			toots=v.Value
+		end
+	end
+	local plr1={pr.Name,os.time(),toots}
+	local plr2={}
+	local plr3={}
+	local plr4={}
+	local plr5={}
+	local plr6={}
+	local plr7={}
+	local plr8={}
+	local plr9={}
+	local plr10={}
+	local function GetPing()
+		local pin
+		for _, r in ipairs(game.CoreGui.RobloxGui.PerformanceStats:GetChildren()) do
+			if r:IsA('TextButton') then
+				if r:FindFirstChild('StatsMiniTextPanelClass'):FindFirstChild('TitleLabel').Text=='Ping' then
+					pin=r:FindFirstChild('StatsMiniTextPanelClass'):FindFirstChild('ValueLabel').Text
+				end
+			end
+		end
+		return pin
+	end
+	bb=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+	end)
+	local plrs={}
+	for _, v in ipairs(game.Players:GetChildren()) do
+		if v.Name~=pr.Name then
+			table.insert(plrs,v.Name)
+		end
+	end	
+	for _, v in ipairs(plrs) do
+		for _, v in ipairs(game.Players[v].leaderstats:GetChildren()) do
+			if string.find(v.Name,'Eggs') then
+				stat=v.Value
+			end
+		end
+		if not plr2[2] then
+			table.insert(plr2,v)
+			table.insert(plr2,os.time())
+			table.insert(plr2,stat)
+		elseif not plr3[2] then
+			table.insert(plr3,v)
+			table.insert(plr3,os.time())
+			table.insert(plr3,stat)
+		elseif not plr4[2] then
+			table.insert(plr4,v)
+			table.insert(plr4,os.time())
+			table.insert(plr4,stat)
+		elseif not plr5[2] then
+			table.insert(plr5,v)
+			table.insert(plr5,os.time())
+			table.insert(plr5,stat)
+		elseif not plr6[2] then
+			table.insert(plr6,v)
+			table.insert(plr6,os.time())
+			table.insert(plr6,stat)
+		elseif not plr7[2] then
+			table.insert(plr7,v)
+			table.insert(plr7,os.time())
+			table.insert(plr7,stat)
+		elseif not plr8[2] then
+			table.insert(plr8,v)
+			table.insert(plr8,os.time())
+			table.insert(plr8,stat)
+		elseif not plr9[2] then
+			table.insert(plr9,v)
+			table.insert(plr9,os.time())
+			table.insert(plr9,stat)
+		elseif not plr10[2] then
+			table.insert(plr10,v)
+			table.insert(plr10,os.time())
+			table.insert(plr10,stat)
+		end
+	end
+	game.Players.PlayerAdded:Connect(function(p)
+		repeat wait() until p:FindFirstChild('leaderstats')
+		local stat
+		for _, v in ipairs(p.leaderstats:GetChildren()) do
+			if string.find(v.Name,'Eggs') then
+				stat=v.Value
+			end
+		end
+		if not plr2[2] then
+			table.insert(plr2,p.Name)
+			table.insert(plr2,os.time())
+			table.insert(plr2,stat)
+		elseif not plr3[2] then
+			table.insert(plr3,p.Name)
+			table.insert(plr3,os.time())
+			table.insert(plr3,stat)
+		elseif not plr4[2] then
+			table.insert(plr4,p.Name)
+			table.insert(plr4,os.time())
+			table.insert(plr4,stat)
+		elseif not plr5[2] then
+			table.insert(plr5,p.Name)
+			table.insert(plr5,os.time())
+			table.insert(plr5,stat)
+		elseif not plr6[2] then
+			table.insert(plr6,p.Name)
+			table.insert(plr6,os.time())
+			table.insert(plr6,stat)
+		elseif not plr7[2] then
+			table.insert(plr7,p.Name)
+			table.insert(plr7,os.time())
+			table.insert(plr7,stat)
+		elseif not plr8[2] then
+			table.insert(plr8,p.Name)
+			table.insert(plr8,os.time())
+			table.insert(plr8,stat)
+		elseif not plr9[2] then
+			table.insert(plr9,p.Name)
+			table.insert(plr9,os.time())
+			table.insert(plr9,stat)
+		elseif not plr10[2] then
+			table.insert(plr10,p.Name)
+			table.insert(plr10,os.time())
+			table.insert(plr10,stat)
+		end
+	end)
+	game.Players.PlayerRemoving:Connect(function(plr)
+		leaver=plr.Name
+		local userid=plr.UserId
+		local stat
+		for _, v in ipairs(plr.leaderstats:GetChildren()) do
+			if string.find(v.Name,'Eggs') then
+				stat=v.Value
+			end
+		end
+		local yes
+		local rest
+		local eggs
+		if table.find(plr2,leaver) then
+			eggs=stat-plr2[3]
+			rest = (((os.time()-plr2[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr2)
+		end
+		if table.find(plr3,leaver) then
+			eggs=stat-plr3[3]
+			rest = (((os.time()-plr3[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr3)
+		end
+		if table.find(plr4,leaver) then
+			eggs=stat-plr4[3]
+			rest = (((os.time()-plr4[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr4)
+		end
+		if table.find(plr5,leaver) then
+			eggs=stat-plr5[3]
+			rest = (((os.time()-plr5[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr5)
+		end
+		if table.find(plr6,leaver) then
+			eggs=stat-plr6[3]
+			rest = (((os.time()-plr6[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr6)
+		end
+		if table.find(plr7,leaver) then
+			eggs=stat-plr7[3]
+			rest = (((os.time()-plr7[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr7)
+		end
+		if table.find(plr8,leaver) then
+			eggs=stat-plr8[3]
+			rest = (((os.time()-plr8[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr8)
+		end
+		if table.find(plr9,leaver) then
+			eggs=stat-plr9[3]
+			rest = (((os.time()-plr9[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr9)
+		end
+		if table.find(plr10,leaver) then
+			eggs=stat-plr10[3]
+			rest = (((os.time()-plr10[2])/60)/60)
+			rest *= 100
+			rest = math.floor(rest)
+			rest = rest / 100
+			table.clear(plr10)
+		end
+		local remainingplayers=#(game.Players:GetChildren())-1
+		local function SendWebHook()
+			local responce = request(
+				{
+					Url=url,
+					Method= 'POST',
+					Headers= {
+						['Content-Type']='application/json'
+					},
+					Body = httpservice:JSONEncode({
+						username = "Player Disconnected",
+						embeds = {
+							{
+								title = ':x:'..leaver..' Disconnected From the Game:x:',
+								author = {
+									name = leaver,
+									icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..userid.."&size=180x180&format=Png&isCircular=false",
+								},
+								fields={
+									{
+										name = "Data",
+										value =  ':clock1:**Time in Server**:clock1:: '..tostring(rest)..'h\n:egg:**Eggs Hatched**:egg:: '..tostring(eggs)..'\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette:: '..remainingplayers..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+										inline = false
+									},
+								},
+								thumbnail={
+									url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..userid.."&size=150x150&format=Png&isCircular=false"
+								},
+								footer = {
+									text = "Chubby's BSX Log Webhook",
+									icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+								},
+								color = 16711680
+							}
+						}
+					})
+				})
+		end
+		local function SendWebHook2()
+			local responce = request(
+				{
+					Url=url,
+					Method= 'POST',
+					Headers= {
+						['Content-Type']='application/json'
+					},
+					Body = httpservice:JSONEncode({
+						username = "Player Disconnected",
+						content = ping..' leave detected',
+					}
+					)
+				})
+		end
+		spawn(SendWebHook2)
+		wait(.5)
+		spawn(SendWebHook)
+	end)
+	script.Parent.Frame.x.MouseButton1Click:connect(function()
+		script.Parent.Parent:Destroy()
+	end)
+	script.Parent.Frame.Button2.MouseButton1Click:connect(function()
+		if autoban==true then
+			autoban=false
+			script.Parent.Frame.Button2.TextLabel.Text='OFF'
+		else
+			autoban=true
+			script.Parent.Frame.Button2.TextLabel.Text='ON'
+			repeat wait(0.15)
+				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("rebirth/rebirth"):FireServer()
+				local args = {
+					[1] = workspace.npcs.SinisterGh0ulz,
+					[2] = false
+				}
+				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.damageNPC:FireServer(unpack(args))
+				local args = {
+					[1] = workspace.npcs.RemDaBomRBLX,
+					[2] = false
+				}
+				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.damageNPC:FireServer(unpack(args))
+			until  autoban==false
+		end
+	end)
+	script.Parent.Frame.speed.MouseButton1Click:connect(function()
+		if eggspeed==true then
+			eggspeed=false
+			script.Parent.Frame.speed.TextLabel.Text='OFF'
+		else
+			eggspeed=true
+			script.Parent.Frame.speed.TextLabel.Text='ON'
+			repeat wait(0.1)
+				local args = {
+					[1] = 5,
+					[2] = "Autumn",
+					[3] = false
+				}
+				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("eggs/hatchEgg"):FireServer(unpack(args))
+			until eggspeed==false
+		end
+	end)
+	script.Parent.Frame.ping.MouseButton1Click:connect(function()
+		if pingon==true then
+			pingon=false
+			script.Parent.Frame.ping.TextLabel.Text='OFF'
+		else
+			pingon=true
+			script.Parent.Frame.ping.TextLabel.Text='ON'
+		end
+	end)
+	local UTCSeconds = os.time()
+	local SecondsInHour = 3600
+	local ESTSeconds = UTCSeconds - (SecondsInHour * 4)
+	local ESTDate = os.date("!*t", ESTSeconds)
+	local hourString = tostring(ESTDate.hour > 12 and ESTDate.hour % 12 or ESTDate.hour)
+	local minuteString = ESTDate.min < 10 and "0"..ESTDate.min or tostring(ESTDate.min)
+	local period = ESTDate.hour > 12 and "PM" or "AM"
+	local stat2
+	local stat22
+	for _, v in ipairs(pr.leaderstats:GetChildren()) do
+		if string.find(v.Name,'Eggs') then
+			stat2=v.Value
+		end
+		if string.find(v.Name,'Bans') then
+			stat22=v.Value
+		end
+	end
+	local seperator='\n'
+	for _, v in ipairs(pr.PlayerGui['1']:GetChildren()) do
+		if v.Name=='1' then
+			if v:IsA('Frame') then
+			else
+				v:Destroy()
+			end
+		end
+	end
+	local players2={}
+	for _, i in ipairs(game.Players:GetChildren()) do
+		table.insert(players2,i.Name)
+	end
+	for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
+		for _, t in ipairs(l:getChildren()) do
+			if t:IsA('Frame') then
+				if table.find(players2,t['4'].Text) then
+					local person=table.find(players2,t['4'].Text)
+					table.remove(players2,person)
+					table.insert(players2,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+				end
+			end
+		end
+	end
+	for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
+		for _, t in ipairs(r:getChildren()) do
+			if t:IsA('Frame') then
+				if table.find(players2,t['4'].Text) then
+					local person=table.find(players2,t['4'].Text)
+					local yeah=players2[person]
+					table.remove(players2,person)
+					table.insert(players2,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+				end
+			end
+		end
+	end
+	local function SendWebHook32()
+		local responce = request(
+			{
+				Url=url2,
+				Method= 'POST',
+				Headers= {
+					['Content-Type']='application/json'
+				},
+				Body = httpservice:JSONEncode({
+					embeds = {
+						{
+							title = '📄Current Server📄:',
+							fields={
+								{
+									name = "Data:",
+									value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..table.concat(players2, seperator)..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+									inline = false
+								},
+							},
+							thumbnail={
+								url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
+							},
+							footer = {
+								text = hourString..":"..minuteString.." "..period,
+								icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+							},
+							color = 3080447
+						}
+					}
+				})
+			})
+	end
+	spawn(SendWebHook32)
+	while wait(1) do
+		dawg=dawg+1
+		if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
+			if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') or string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
+				local found
+				local results=pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text
+				for _, v in ipairs(game.Players:GetChildren()) do
+					if string.find(results,v.Name) then
+						hatcher=v.Name
+						found=true
+					end
+				end
+				if found==true then
+					local shizz
+					if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') then
+						rarity='Secret'
+						secrets=secrets+1
+						shizz='https://tr.rbxcdn.com/7d20e6625aff22400661330712c471ed/420/420/Image/Png'
+					end
+					if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
+						rarity='Primordial'
+						primordials=primordials+1
+						shizz='https://tr.rbxcdn.com/a3b977b79fe96dd14b53533a95054a9a/420/420/Image/Png'
+					end
+					wait(.25)
+					pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+					local fields
+					local Body
+					local stat
+					for _, v in ipairs(game.Players[hatcher].leaderstats:GetChildren()) do
+						if string.find(v.Name,'Eggs') then
+							stat=v.Value
+						end
+					end
+					local rest
+					local eggs
+					if table.find(plr2,hatcher) then
+						eggs=stat-plr2[3]
+						rest = (((os.time()-plr2[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr2)
+					end
+					if table.find(plr3,hatcher) then
+						eggs=stat-plr3[3]
+						rest = (((os.time()-plr3[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr3)
+					end
+					if table.find(plr4,hatcher) then
+						eggs=stat-plr4[3]
+						rest = (((os.time()-plr4[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr4)
+					end
+					if table.find(plr5,hatcher) then
+						eggs=stat-plr5[3]
+						rest = (((os.time()-plr5[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr5)
+					end
+					if table.find(plr6,hatcher) then
+						eggs=stat-plr6[3]
+						rest = (((os.time()-plr6[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr6)
+					end
+					if table.find(plr7,hatcher) then
+						eggs=stat-plr7[3]
+						rest = (((os.time()-plr7[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr7)
+					end
+					if table.find(plr8,hatcher) then
+						eggs=stat-plr8[3]
+						rest = (((os.time()-plr8[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr8)
+					end
+					if table.find(plr9,hatcher) then
+						eggs=stat-plr9[3]
+						rest = (((os.time()-plr9[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr9)
+					end
+					if table.find(plr10,hatcher) then
+						eggs=stat-plr10[3]
+						rest = (((os.time()-plr10[2])/60)/60)
+						rest *= 100
+						rest = math.floor(rest)
+						rest = rest / 100
+						table.clear(plr10)
+					end
+					local function SendWebHook()
+						local responce = request(
+							{
+								Url=url,
+								Method= 'POST',
+								Headers= {
+									['Content-Type']='application/json'
+								},
+								Body = httpservice:JSONEncode({
+									username = "HATCH!",
+									embeds = {
+										{
+											title = ":tada:"..hatcher.." hatched a "..rarity..":tada:",
+											author = {
+												name = hatcher,
+												icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..game.Players[hatcher].UserId.."&size=180x180&format=Png&isCircular=false",
+											},
+											fields={
+												{
+													name = "Data:",
+													value =  ':speech_balloon:**Chat Message**:speech_balloon:: '..results..'\n:clock1:**Time in Server**:clock1:: '..tostring(rest)..'h\n:egg:**Eggs Before Hatch**:egg:: '..tostring(eggs)..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+													inline = false
+												},
+											},
+											thumbnail={
+												url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..game.Players[hatcher].UserId.."&size=150x150&format=Png&isCircular=false"
+											},
+											image={
+												url=shizz
+											},
+											footer = {
+												text = "Chubby's BSX Log Webhook",
+												icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+											},
+											color = 65280
+										}
+									}
+								})
+							})
+					end
+					local function SendWebHook2()
+						local responce = request(
+							{
+								Url=url,
+								Method= 'POST',
+								Headers= {
+									['Content-Type']='application/json'
+								},
+								Body = httpservice:JSONEncode({
+									username = "HATCH!",
+									content = ping..' '..rarity..' hatched!',
+								}
+								)
+							})
+					end
+					spawn(SendWebHook2)
+					wait(.5)
+					spawn(SendWebHook)
+					wait(.25)
+					found=false
+				else
+					if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
+						pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+					end
+				end
+			else
+				if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
+					pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+				end
+			end
+		end
+		local yeah=string.split(GetPing()," ")
+		local num=yeah[1]
+		if tonumber(num)>=300 and pingon==true then
+			local remainingplayers=#(game.Players:GetChildren())-1
+			local function SendWebHook()
+				local responce = request(
+					{
+						Url=url,
+						Method= 'POST',
+						Headers= {
+							['Content-Type']='application/json'
+						},
+						Body = httpservice:JSONEncode({
+							username = "Ping Warning!",
+							embeds = {
+								{
+									title = ":exclamation:Your Main Account's Ping is Close to Disconnection:exclamation:",
+									author = {
+										name = pr.Name,
+										icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..pr.UserId.."&size=180x180&format=Png&isCircular=false",
+									},
+									fields={
+										{
+											name = "Data",
+											value = ':exclamation:**Ping**:exclamation:: '..GetPing()..'\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette:: '..remainingplayers..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+											inline = false
+										},
+									},
+									thumbnail={
+										url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
+									},
+									footer = {
+										text = "Chubby's BSX Log Webhook",
+										icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+									},
+									color = 16743680
+								}
+							}
+						})
+					})
+			end
+			local function SendWebHook2()
+				local responce = request(
+					{
+						Url=url,
+						Method= 'POST',
+						Headers= {
+							['Content-Type']='application/json'
+						},
+						Body = httpservice:JSONEncode({
+							username = "Ping Warning!",
+							content = ping..' high ping detected',
+						}
+						)
+					})
+			end
+			spawn(SendWebHook2)
+			wait(.5)
+			spawn(SendWebHook)
+		end
+		if dawg>=3600 and hourw==true then
+			local UTCSeconds = os.time()
+			local SecondsInHour = 3600
+			local ESTSeconds = UTCSeconds - (SecondsInHour * 4)
+			local ESTDate = os.date("!*t", ESTSeconds)
+			local hourString = tostring(ESTDate.hour > 12 and ESTDate.hour % 12 or ESTDate.hour)
+			local minuteString = ESTDate.min < 10 and "0"..ESTDate.min or tostring(ESTDate.min)
+			local period = ESTDate.hour > 12 and "PM" or "AM"
+			dawg=0
+			local stat
+			local stat2
+			for _, v in ipairs(pr.leaderstats:GetChildren()) do
+				if string.find(v.Name,'Eggs') then
+					stat=v.Value
+				end
+				if string.find(v.Name,'Bans') then
+					stat2=v.Value
+				end
+			end
+			local seperator='\n'
+			local players={}
+			for _, i in ipairs(game.Players:GetChildren()) do
+				table.insert(players,i.Name)
+			end
+			for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
+				for _, t in ipairs(l:getChildren()) do
+					if t:IsA('Frame') then
+						if table.find(players,t['4'].Text) then
+							local person=table.find(players,t['4'].Text)
+							table.remove(players,person)
+							table.insert(players,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+						end
+					end
+				end
+			end
+			for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
+				for _, t in ipairs(r:getChildren()) do
+					if t:IsA('Frame') then
+						if table.find(players,t['4'].Text) then
+							local person=table.find(players,t['4'].Text)
+							local yeah=players[person]
+							table.remove(players,person)
+							table.insert(players,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+						end
+					end
+				end
+			end
+			local function SendWebHook3()
+				local responce = request(
+					{
+						Url=url2,
+						Method= 'POST',
+						Headers= {
+							['Content-Type']='application/json'
+						},
+						Body = httpservice:JSONEncode({
+							embeds = {
+								{
+									title = '📄Current Server📄:',
+									fields={
+										{
+											name = "Data:",
+											value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..table.concat(players, seperator)..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+											inline = false
+										},
+									},
+									thumbnail={
+										url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
+									},
+									footer = {
+										text = hourString..":"..minuteString.." "..period,
+										icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+									},
+									color = 3080447
+								}
+							}
+						})
+					})
+			end
+			spawn(SendWebHook3)
+		end
+	end
+end
+coroutine.wrap(LLZWLU_fake_script)()
