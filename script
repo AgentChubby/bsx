@@ -43,6 +43,8 @@ local Shadow_6 = Instance.new("Frame")
 local UICorner_14 = Instance.new("UICorner")
 local TextLabel_14 = Instance.new("TextLabel")
 
+--Properties:
+
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -50,8 +52,8 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.828856528, 0, 0.412718207, 0)
-Frame.Size = UDim2.new(0.16653873, 0, 0.546134651, 0)
+Frame.Position = UDim2.new(0.859732389, 0, 0.610972583, 0)
+Frame.Size = UDim2.new(0.135662869, 0, 0.347880304, 0)
 
 UICorner.CornerRadius = UDim.new(0, 5)
 UICorner.Parent = Frame
@@ -90,8 +92,8 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.496755868, 0, 0.529083729, 0)
-TextLabel.Size = UDim2.new(1.13904428, -20, 1.37816203, -20)
+TextLabel.Position = UDim2.new(0.496755391, 0, 0.520584464, 0)
+TextLabel.Size = UDim2.new(1.13904417, -20, 2.01036811, -20)
 TextLabel.ZIndex = 2
 TextLabel.Font = Enum.Font.GothamMedium
 TextLabel.Text = "OFF"
@@ -190,8 +192,8 @@ TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
 TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.496755868, 0, 0.541583717, 0)
-TextLabel_5.Size = UDim2.new(1.13904428, -20, 1.37816191, -20)
+TextLabel_5.Position = UDim2.new(0.496755391, 0, 0.526837409, 0)
+TextLabel_5.Size = UDim2.new(1.13904417, -20, 1.99786258, -20)
 TextLabel_5.ZIndex = 2
 TextLabel_5.Font = Enum.Font.GothamMedium
 TextLabel_5.Text = "OFF"
@@ -236,8 +238,8 @@ Button2_2.Name = "Button2"
 Button2_2.Parent = Frame
 Button2_2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
 Button2_2.BorderSizePixel = 0
-Button2_2.Position = UDim2.new(0.573732436, 0, 0.219941169, 0)
-Button2_2.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
+Button2_2.Position = UDim2.new(0.573732316, 0, 0.223525405, 0)
+Button2_2.Size = UDim2.new(0.386638284, 0, 0.0832268223, 0)
 Button2_2.ZIndex = 2
 Button2_2.Font = Enum.Font.GothamMedium
 Button2_2.Text = ""
@@ -252,8 +254,8 @@ Shadow_3.Name = "Shadow"
 Shadow_3.Parent = Button2_2
 Shadow_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_3.BorderSizePixel = 0
-Shadow_3.Position = UDim2.new(-0.0120629193, 0, 0.0306840111, 0)
-Shadow_3.Size = UDim2.new(1.01763725, 0, 0.939332545, 4)
+Shadow_3.Position = UDim2.new(-0.012063018, 0, 0.116583921, 0)
+Shadow_3.Size = UDim2.new(1.01763725, 0, 0.850600123, 4)
 
 UICorner_8.Parent = Shadow_3
 
@@ -263,8 +265,8 @@ TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.BackgroundTransparency = 1.000
 TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0.496756166, 0, 0.523133934, 0)
-TextLabel_8.Size = UDim2.new(1.13904428, -20, 1.21273756, -20)
+TextLabel_8.Position = UDim2.new(0.496755332, 0, 0.563324511, 0)
+TextLabel_8.Size = UDim2.new(1.13904417, -20, 1.68095613, -20)
 TextLabel_8.ZIndex = 2
 TextLabel_8.Font = Enum.Font.GothamMedium
 TextLabel_8.Text = "ON"
@@ -292,8 +294,8 @@ shart.Name = "shart"
 shart.Parent = Frame
 shart.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
 shart.BorderSizePixel = 0
-shart.Position = UDim2.new(0.573732436, 0, 0.0938414633, 0)
-shart.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
+shart.Position = UDim2.new(0.573732316, 0, 0.0900701731, 0)
+shart.Size = UDim2.new(0.386638284, 0, 0.0990065411, 0)
 shart.ZIndex = 2
 shart.Font = Enum.Font.GothamMedium
 shart.Text = ""
@@ -308,8 +310,8 @@ Shadow_4.Name = "Shadow"
 Shadow_4.Parent = shart
 Shadow_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_4.BorderSizePixel = 0
-Shadow_4.Position = UDim2.new(-0.0120629193, 0, 0.0306840111, 0)
-Shadow_4.Size = UDim2.new(1.01763725, 0, 0.939332545, 4)
+Shadow_4.Position = UDim2.new(-0.012063018, 0, 0.0306845941, 0)
+Shadow_4.Size = UDim2.new(1.01763725, 0, 0.908761859, 4)
 
 UICorner_10.Parent = Shadow_4
 
@@ -319,8 +321,8 @@ TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.BackgroundTransparency = 1.000
 TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.496756166, 0, 0.523133934, 0)
-TextLabel_10.Size = UDim2.new(1.13904428, -20, 1.21273756, -20)
+TextLabel_10.Position = UDim2.new(0.496755421, 0, 0.523134947, 0)
+TextLabel_10.Size = UDim2.new(1.13904428, -20, 1.36559129, -20)
 TextLabel_10.ZIndex = 2
 TextLabel_10.Font = Enum.Font.GothamMedium
 TextLabel_10.Text = "START"
@@ -351,8 +353,8 @@ TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
 TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.263723403, 0, 0.389815152, 0)
-TextLabel_12.Size = UDim2.new(0.527447701, 0, 0.123765513, 0)
+TextLabel_12.Position = UDim2.new(0.282301456, 0, 0.389815241, 0)
+TextLabel_12.Size = UDim2.new(0.527447164, 0, 0.123765513, 0)
 TextLabel_12.ZIndex = 2
 TextLabel_12.Font = Enum.Font.GothamMedium
 TextLabel_12.Text = "Ping Update"
@@ -391,8 +393,8 @@ TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
 TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_13.BorderSizePixel = 0
-TextLabel_13.Position = UDim2.new(0.496756166, 0, 0.523133934, 0)
-TextLabel_13.Size = UDim2.new(1.13904428, -20, 1.21273756, -20)
+TextLabel_13.Position = UDim2.new(0.496755391, 0, 0.582441092, 0)
+TextLabel_13.Size = UDim2.new(1.13904417, -20, 1.60685194, -20)
 TextLabel_13.ZIndex = 2
 TextLabel_13.Font = Enum.Font.GothamMedium
 TextLabel_13.Text = "OFF"
@@ -432,8 +434,8 @@ TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.BackgroundTransparency = 1.000
 TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_14.BorderSizePixel = 0
-TextLabel_14.Position = UDim2.new(0.561804116, 0, 0.529084623, 0)
-TextLabel_14.Size = UDim2.new(1.57992756, -20, 1.56598115, -20)
+TextLabel_14.Position = UDim2.new(0.502775908, 0, 0.584120333, 0)
+TextLabel_14.Size = UDim2.new(2.0501864, -20, 2.51463747, -20)
 TextLabel_14.ZIndex = 2
 TextLabel_14.Font = Enum.Font.GothamMedium
 TextLabel_14.Text = "X"
@@ -442,8 +444,9 @@ TextLabel_14.TextScaled = true
 TextLabel_14.TextSize = 14.000
 TextLabel_14.TextWrapped = true
 
+-- Scripts:
 
-local function LLZWLU_fake_script() 
+local function HJLDOMF_fake_script() -- ScreenGui.bsx logs 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local started=false
@@ -820,25 +823,27 @@ local function LLZWLU_fake_script()
 	for _, i in ipairs(game.Players:GetChildren()) do
 		table.insert(players2,i.Name)
 	end
-	for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
-		for _, t in ipairs(l:getChildren()) do
-			if t:IsA('Frame') then
-				if table.find(players2,t['4'].Text) then
-					local person=table.find(players2,t['4'].Text)
-					table.remove(players2,person)
-					table.insert(players2,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+	if #(game.Players:GetChildren())>1 then
+		for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
+			for _, t in ipairs(l:getChildren()) do
+				if t:IsA('Frame') then
+					if table.find(players2,t['4'].Text) then
+						local person=table.find(players2,t['4'].Text)
+						table.remove(players2,person)
+						table.insert(players2,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+					end
 				end
 			end
 		end
-	end
-	for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
-		for _, t in ipairs(r:getChildren()) do
-			if t:IsA('Frame') then
-				if table.find(players2,t['4'].Text) then
-					local person=table.find(players2,t['4'].Text)
-					local yeah=players2[person]
-					table.remove(players2,person)
-					table.insert(players2,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+		for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
+			for _, t in ipairs(r:getChildren()) do
+				if t:IsA('Frame') then
+					if table.find(players2,t['4'].Text) then
+						local person=table.find(players2,t['4'].Text)
+						local yeah=players2[person]
+						table.remove(players2,person)
+						table.insert(players2,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+					end
 				end
 			end
 		end
@@ -1198,4 +1203,4 @@ local function LLZWLU_fake_script()
 		end
 	end
 end
-coroutine.wrap(LLZWLU_fake_script)()
+coroutine.wrap(HJLDOMF_fake_script)()
