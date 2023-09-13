@@ -743,7 +743,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 		spawn(SendWebHook)
 	end)
 	script.Parent.Frame.x.MouseButton1Click:connect(function()
-		script.Parent:Destroy()
+		ScreenGui:Destroy()
 	end)
 	script.Parent.Frame.Button2.MouseButton1Click:connect(function()
 		if autoban==true then
