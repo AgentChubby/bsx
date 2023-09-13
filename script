@@ -446,7 +446,7 @@ TextLabel_14.TextWrapped = true
 
 -- Scripts:
 
-local function KAFYZ_fake_script() -- ScreenGui.bsx logs 
+local function CZKYM_fake_script() -- ScreenGui.bsx logs 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local started=false
@@ -743,7 +743,7 @@ local function KAFYZ_fake_script() -- ScreenGui.bsx logs
 		spawn(SendWebHook)
 	end)
 	script.Parent.Frame.x.MouseButton1Click:connect(function()
-		script.Parent.Parent:Destroy()
+		script.Parent:Destroy()
 	end)
 	script.Parent.Frame.Button2.MouseButton1Click:connect(function()
 		if autoban==true then
@@ -867,7 +867,7 @@ local function KAFYZ_fake_script() -- ScreenGui.bsx logs
 							fields={
 								{
 									name = "Data:",
-									value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..plrst..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+									value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat22..'\n:egg:**Eggs**:egg:: '..stat2..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..plrst..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
 									inline = false
 								},
 							},
@@ -1213,4 +1213,4 @@ local function KAFYZ_fake_script() -- ScreenGui.bsx logs
 		end
 	end
 end
-coroutine.wrap(KAFYZ_fake_script)()
+coroutine.wrap(CZKYM_fake_script)()
