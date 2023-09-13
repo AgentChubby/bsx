@@ -52,8 +52,8 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.859732389, 0, 0.610972583, 0)
-Frame.Size = UDim2.new(0.135662869, 0, 0.347880304, 0)
+Frame.Position = UDim2.new(0.862252831, 0, 0.679551125, 0)
+Frame.Size = UDim2.new(0.13755323, 0, 0.320448875, 0)
 
 UICorner.CornerRadius = UDim.new(0, 5)
 UICorner.Parent = Frame
@@ -106,8 +106,8 @@ ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.0227017365, 0, 0.924653471, 0)
-ImageLabel.Size = UDim2.new(0.099999994, 0, 0.0605578385, 0)
+ImageLabel.Position = UDim2.new(0.0227015894, 0, 0.897416055, 0)
+ImageLabel.Size = UDim2.new(0.099999994, 0, 0.0877952054, 0)
 ImageLabel.Image = "rbxassetid://14761795590"
 
 UICorner_4.CornerRadius = UDim.new(0, 5)
@@ -446,13 +446,13 @@ TextLabel_14.TextWrapped = true
 
 -- Scripts:
 
-local function HJLDOMF_fake_script() -- ScreenGui.bsx logs 
+local function KAFYZ_fake_script() -- ScreenGui.bsx logs 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local started=false
 	script.Parent.Frame.shart.MouseButton1Click:connect(function()
 		started=true
-		script.Parent.Frame.shart.Shadow.BackgroundColor3=Color3.new(0.32549, 0.32549, 0.32549)
+		script.Parent.Frame.shart.Shadow.BackgroundColor3=Color3.new(0.258824, 0.258824, 0.258824)
 		script.Parent.Frame.shart.TextLabel.Text='ON'
 	end)
 	repeat wait(1) until started==true
@@ -823,6 +823,7 @@ local function HJLDOMF_fake_script() -- ScreenGui.bsx logs
 	for _, i in ipairs(game.Players:GetChildren()) do
 		table.insert(players2,i.Name)
 	end
+	local plrst
 	if #(game.Players:GetChildren())>1 then
 		for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
 			for _, t in ipairs(l:getChildren()) do
@@ -847,6 +848,9 @@ local function HJLDOMF_fake_script() -- ScreenGui.bsx logs
 				end
 			end
 		end
+		plrst=table.concat(players2, seperator)
+	else
+		plrst=game.Players.LocalPlayer.Name
 	end
 	local function SendWebHook32()
 		local responce = request(
@@ -863,7 +867,7 @@ local function HJLDOMF_fake_script() -- ScreenGui.bsx logs
 							fields={
 								{
 									name = "Data:",
-									value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..table.concat(players2, seperator)..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+									value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..plrst..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
 									inline = false
 								},
 							},
@@ -1144,28 +1148,34 @@ local function HJLDOMF_fake_script() -- ScreenGui.bsx logs
 			for _, i in ipairs(game.Players:GetChildren()) do
 				table.insert(players,i.Name)
 			end
-			for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
-				for _, t in ipairs(l:getChildren()) do
-					if t:IsA('Frame') then
-						if table.find(players,t['4'].Text) then
-							local person=table.find(players,t['4'].Text)
-							table.remove(players,person)
-							table.insert(players,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+			local plrst2
+			if #(game.Players:GetChildren())>1 then
+				for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
+					for _, t in ipairs(l:getChildren()) do
+						if t:IsA('Frame') then
+							if table.find(players,t['4'].Text) then
+								local person=table.find(players,t['4'].Text)
+								table.remove(players,person)
+								table.insert(players,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+							end
 						end
 					end
 				end
-			end
-			for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
-				for _, t in ipairs(r:getChildren()) do
-					if t:IsA('Frame') then
-						if table.find(players,t['4'].Text) then
-							local person=table.find(players,t['4'].Text)
-							local yeah=players[person]
-							table.remove(players,person)
-							table.insert(players,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+				for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
+					for _, t in ipairs(r:getChildren()) do
+						if t:IsA('Frame') then
+							if table.find(players,t['4'].Text) then
+								local person=table.find(players,t['4'].Text)
+								local yeah=players[person]
+								table.remove(players,person)
+								table.insert(players,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+							end
 						end
 					end
 				end
+				plrst2=table.concat(players, seperator)
+			else
+				plrst2=game.Players.LocalPlayer.Name
 			end
 			local function SendWebHook3()
 				local responce = request(
@@ -1182,7 +1192,7 @@ local function HJLDOMF_fake_script() -- ScreenGui.bsx logs
 									fields={
 										{
 											name = "Data:",
-											value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..table.concat(players, seperator)..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+											value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..plrst2..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
 											inline = false
 										},
 									},
@@ -1203,4 +1213,4 @@ local function HJLDOMF_fake_script() -- ScreenGui.bsx logs
 		end
 	end
 end
-coroutine.wrap(HJLDOMF_fake_script)()
+coroutine.wrap(KAFYZ_fake_script)()
