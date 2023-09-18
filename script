@@ -1,46 +1,32 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 local speed = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
 local Shadow = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local ImageLabel = Instance.new("ImageLabel")
-local UICorner_4 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local Button2 = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
 local Shadow_2 = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
 local TextLabel_7 = Instance.new("TextLabel")
 local Button2_2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
 local Shadow_3 = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
 local TextLabel_9 = Instance.new("TextLabel")
 local shart = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
 local Shadow_4 = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local TextLabel_11 = Instance.new("TextLabel")
 local TextLabel_12 = Instance.new("TextLabel")
 local ping = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
 local Shadow_5 = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
 local x = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
 local Shadow_6 = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
 local TextLabel_14 = Instance.new("TextLabel")
 
 --Properties:
@@ -51,20 +37,18 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
+Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.862252831, 0, 0.679551125, 0)
 Frame.Size = UDim2.new(0.13755323, 0, 0.320448875, 0)
 
-UICorner.CornerRadius = UDim.new(0, 5)
-UICorner.Parent = Frame
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))}
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 234)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 149, 0))}
 UIGradient.Parent = Frame
 
 speed.Name = "speed"
 speed.Parent = Frame
 speed.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-speed.BorderSizePixel = 0
+speed.BorderColor3 = Color3.fromRGB(161, 0, 148)
+speed.BorderSizePixel = 3
 speed.Position = UDim2.new(0.573732436, 0, 0.776736319, 0)
 speed.Size = UDim2.new(0.386638284, 0, 0.0681712702, 0)
 speed.ZIndex = 2
@@ -75,16 +59,12 @@ speed.TextScaled = true
 speed.TextSize = 14.000
 speed.TextWrapped = true
 
-UICorner_2.Parent = speed
-
 Shadow.Name = "Shadow"
 Shadow.Parent = speed
 Shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow.BorderSizePixel = 0
 Shadow.Position = UDim2.new(-0.0120628076, 0, 0.0411699377, 0)
 Shadow.Size = UDim2.new(1.01763725, 0, 0.895360827, 4)
-
-UICorner_3.Parent = Shadow
 
 TextLabel.Parent = speed
 TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -105,13 +85,10 @@ TextLabel.TextWrapped = true
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
+ImageLabel.BorderSizePixel = 3
 ImageLabel.Position = UDim2.new(0.0227015894, 0, 0.897416055, 0)
 ImageLabel.Size = UDim2.new(0.099999994, 0, 0.0877952054, 0)
 ImageLabel.Image = "rbxassetid://14761795590"
-
-UICorner_4.CornerRadius = UDim.new(0, 5)
-UICorner_4.Parent = ImageLabel
 
 TextLabel_2.Parent = Frame
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -164,7 +141,8 @@ TextLabel_4.TextWrapped = true
 Button2.Name = "Button2"
 Button2.Parent = Frame
 Button2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-Button2.BorderSizePixel = 0
+Button2.BorderColor3 = Color3.fromRGB(161, 0, 148)
+Button2.BorderSizePixel = 3
 Button2.Position = UDim2.new(0.573732436, 0, 0.684191704, 0)
 Button2.Size = UDim2.new(0.386638284, 0, 0.0681712851, 0)
 Button2.ZIndex = 2
@@ -175,16 +153,12 @@ Button2.TextScaled = true
 Button2.TextSize = 14.000
 Button2.TextWrapped = true
 
-UICorner_5.Parent = Button2
-
 Shadow_2.Name = "Shadow"
 Shadow_2.Parent = Button2
 Shadow_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_2.BorderSizePixel = 0
 Shadow_2.Position = UDim2.new(-0.0120628076, 0, 0.0536720008, 0)
 Shadow_2.Size = UDim2.new(1.01763725, 0, 0.895360768, 4)
-
-UICorner_6.Parent = Shadow_2
 
 TextLabel_5.Parent = Button2
 TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -237,7 +211,8 @@ TextLabel_7.TextWrapped = true
 Button2_2.Name = "Button2"
 Button2_2.Parent = Frame
 Button2_2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-Button2_2.BorderSizePixel = 0
+Button2_2.BorderColor3 = Color3.fromRGB(161, 0, 148)
+Button2_2.BorderSizePixel = 3
 Button2_2.Position = UDim2.new(0.573732316, 0, 0.223525405, 0)
 Button2_2.Size = UDim2.new(0.386638284, 0, 0.0832268223, 0)
 Button2_2.ZIndex = 2
@@ -248,16 +223,12 @@ Button2_2.TextScaled = true
 Button2_2.TextSize = 14.000
 Button2_2.TextWrapped = true
 
-UICorner_7.Parent = Button2_2
-
 Shadow_3.Name = "Shadow"
 Shadow_3.Parent = Button2_2
 Shadow_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_3.BorderSizePixel = 0
 Shadow_3.Position = UDim2.new(-0.012063018, 0, 0.116583921, 0)
 Shadow_3.Size = UDim2.new(1.01763725, 0, 0.850600123, 4)
-
-UICorner_8.Parent = Shadow_3
 
 TextLabel_8.Parent = Button2_2
 TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -293,7 +264,8 @@ TextLabel_9.TextWrapped = true
 shart.Name = "shart"
 shart.Parent = Frame
 shart.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-shart.BorderSizePixel = 0
+shart.BorderColor3 = Color3.fromRGB(161, 0, 148)
+shart.BorderSizePixel = 3
 shart.Position = UDim2.new(0.573732316, 0, 0.0900701731, 0)
 shart.Size = UDim2.new(0.386638284, 0, 0.0990065411, 0)
 shart.ZIndex = 2
@@ -304,16 +276,12 @@ shart.TextScaled = true
 shart.TextSize = 14.000
 shart.TextWrapped = true
 
-UICorner_9.Parent = shart
-
 Shadow_4.Name = "Shadow"
 Shadow_4.Parent = shart
 Shadow_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_4.BorderSizePixel = 0
 Shadow_4.Position = UDim2.new(-0.012063018, 0, 0.0306845941, 0)
 Shadow_4.Size = UDim2.new(1.01763725, 0, 0.908761859, 4)
-
-UICorner_10.Parent = Shadow_4
 
 TextLabel_10.Parent = shart
 TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -365,7 +333,8 @@ TextLabel_12.TextWrapped = true
 ping.Name = "ping"
 ping.Parent = Frame
 ping.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-ping.BorderSizePixel = 0
+ping.BorderColor3 = Color3.fromRGB(161, 0, 148)
+ping.BorderSizePixel = 3
 ping.Position = UDim2.new(0.573732436, 0, 0.343108326, 0)
 ping.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
 ping.ZIndex = 2
@@ -376,16 +345,12 @@ ping.TextScaled = true
 ping.TextSize = 14.000
 ping.TextWrapped = true
 
-UICorner_11.Parent = ping
-
 Shadow_5.Name = "Shadow"
 Shadow_5.Parent = ping
 Shadow_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_5.BorderSizePixel = 0
 Shadow_5.Position = UDim2.new(-0.0120629193, 0, 0.0306840111, 0)
 Shadow_5.Size = UDim2.new(1.01763725, 0, 0.939332545, 4)
-
-UICorner_12.Parent = Shadow_5
 
 TextLabel_13.Parent = ping
 TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -406,7 +371,8 @@ TextLabel_13.TextWrapped = true
 x.Name = "x"
 x.Parent = Frame
 x.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-x.BorderSizePixel = 0
+x.BorderColor3 = Color3.fromRGB(161, 0, 148)
+x.BorderSizePixel = 3
 x.Position = UDim2.new(0.910939515, 0, -0.00180255773, 0)
 x.Size = UDim2.new(0.0889268592, 0, 0.0532419644, 0)
 x.ZIndex = 2
@@ -417,16 +383,12 @@ x.TextScaled = true
 x.TextSize = 14.000
 x.TextWrapped = true
 
-UICorner_13.Parent = x
-
 Shadow_6.Name = "Shadow"
 Shadow_6.Parent = x
 Shadow_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Shadow_6.BorderSizePixel = 0
 Shadow_6.Position = UDim2.new(-1.03875927e-05, 0, 0.0411725901, 0)
 Shadow_6.Size = UDim2.new(1.00556827, 0, 0.857797086, 4)
-
-UICorner_14.Parent = Shadow_6
 
 TextLabel_14.Parent = x
 TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -446,7 +408,7 @@ TextLabel_14.TextWrapped = true
 
 -- Scripts:
 
-local function CZKYM_fake_script() -- ScreenGui.bsx logs 
+local function LPFKCV_fake_script() -- ScreenGui.bsx logs 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local started=false
@@ -743,7 +705,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 		spawn(SendWebHook)
 	end)
 	script.Parent.Frame.x.MouseButton1Click:connect(function()
-		ScreenGui:Destroy()
+		script.Parent.Parent:Destroy()
 	end)
 	script.Parent.Frame.Button2.MouseButton1Click:connect(function()
 		if autoban==true then
@@ -777,7 +739,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 			repeat wait(0.1)
 				local args = {
 					[1] = 5,
-					[2] = "Autumn",
+					[2] = "Blackhole",
 					[3] = false
 				}
 				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("eggs/hatchEgg"):FireServer(unpack(args))
@@ -876,9 +838,9 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 							},
 							footer = {
 								text = hourString..":"..minuteString.." "..period,
-								icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+								icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
 							},
-							color = 3080447
+							color = 16743680
 						}
 					}
 				})
@@ -902,7 +864,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 					if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') then
 						rarity='Secret'
 						secrets=secrets+1
-						shizz='https://tr.rbxcdn.com/7d20e6625aff22400661330712c471ed/420/420/Image/Png'
+						shizz='https://tr.rbxcdn.com/97b0731c9689808fae7d0be90c0b48e1/420/420/Image/Png'
 					end
 					if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
 						rarity='Primordial'
@@ -993,6 +955,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 						rest = rest / 100
 						table.clear(plr10)
 					end
+					ping='<@579677231236907034>'
 					local function SendWebHook()
 						local responce = request(
 							{
@@ -1025,7 +988,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 											},
 											footer = {
 												text = "Chubby's BSX Log Webhook",
-												icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+												icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
 											},
 											color = 65280
 										}
@@ -1097,7 +1060,7 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 									},
 									footer = {
 										text = "Chubby's BSX Log Webhook",
-										icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+										icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
 									},
 									color = 16743680
 								}
@@ -1201,9 +1164,9 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 									},
 									footer = {
 										text = hourString..":"..minuteString.." "..period,
-										icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
+										icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
 									},
-									color = 3080447
+									color = 16743680
 								}
 							}
 						})
@@ -1213,4 +1176,4 @@ local function CZKYM_fake_script() -- ScreenGui.bsx logs
 		end
 	end
 end
-coroutine.wrap(CZKYM_fake_script)()
+coroutine.wrap(LPFKCV_fake_script)()
