@@ -41,13 +41,13 @@ Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.862252831, 0, 0.679551125, 0)
 Frame.Size = UDim2.new(0.13755323, 0, 0.320448875, 0)
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 234)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 149, 0))}
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 225, 0))}
 UIGradient.Parent = Frame
 
 speed.Name = "speed"
 speed.Parent = Frame
 speed.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-speed.BorderColor3 = Color3.fromRGB(161, 0, 148)
+speed.BorderColor3 = Color3.fromRGB(255, 255, 0)
 speed.BorderSizePixel = 3
 speed.Position = UDim2.new(0.573732436, 0, 0.776736319, 0)
 speed.Size = UDim2.new(0.386638284, 0, 0.0681712702, 0)
@@ -84,11 +84,12 @@ TextLabel.TextWrapped = true
 
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 3
 ImageLabel.Position = UDim2.new(0.0227015894, 0, 0.897416055, 0)
 ImageLabel.Size = UDim2.new(0.099999994, 0, 0.0877952054, 0)
-ImageLabel.Image = "rbxassetid://14761795590"
+ImageLabel.Image = "rbxassetid://14841307459"
 
 TextLabel_2.Parent = Frame
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -141,7 +142,7 @@ TextLabel_4.TextWrapped = true
 Button2.Name = "Button2"
 Button2.Parent = Frame
 Button2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-Button2.BorderColor3 = Color3.fromRGB(161, 0, 148)
+Button2.BorderColor3 = Color3.fromRGB(255, 255, 0)
 Button2.BorderSizePixel = 3
 Button2.Position = UDim2.new(0.573732436, 0, 0.684191704, 0)
 Button2.Size = UDim2.new(0.386638284, 0, 0.0681712851, 0)
@@ -211,7 +212,7 @@ TextLabel_7.TextWrapped = true
 Button2_2.Name = "Button2"
 Button2_2.Parent = Frame
 Button2_2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-Button2_2.BorderColor3 = Color3.fromRGB(161, 0, 148)
+Button2_2.BorderColor3 = Color3.fromRGB(255, 255, 0)
 Button2_2.BorderSizePixel = 3
 Button2_2.Position = UDim2.new(0.573732316, 0, 0.223525405, 0)
 Button2_2.Size = UDim2.new(0.386638284, 0, 0.0832268223, 0)
@@ -264,7 +265,7 @@ TextLabel_9.TextWrapped = true
 shart.Name = "shart"
 shart.Parent = Frame
 shart.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-shart.BorderColor3 = Color3.fromRGB(161, 0, 148)
+shart.BorderColor3 = Color3.fromRGB(255, 255, 0)
 shart.BorderSizePixel = 3
 shart.Position = UDim2.new(0.573732316, 0, 0.0900701731, 0)
 shart.Size = UDim2.new(0.386638284, 0, 0.0990065411, 0)
@@ -333,7 +334,7 @@ TextLabel_12.TextWrapped = true
 ping.Name = "ping"
 ping.Parent = Frame
 ping.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-ping.BorderColor3 = Color3.fromRGB(161, 0, 148)
+ping.BorderColor3 = Color3.fromRGB(255, 255, 0)
 ping.BorderSizePixel = 3
 ping.Position = UDim2.new(0.573732436, 0, 0.343108326, 0)
 ping.Size = UDim2.new(0.386638284, 0, 0.0928889886, 0)
@@ -371,7 +372,7 @@ TextLabel_13.TextWrapped = true
 x.Name = "x"
 x.Parent = Frame
 x.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
-x.BorderColor3 = Color3.fromRGB(161, 0, 148)
+x.BorderColor3 = Color3.fromRGB(255, 225, 0)
 x.BorderSizePixel = 3
 x.Position = UDim2.new(0.910939515, 0, -0.00180255773, 0)
 x.Size = UDim2.new(0.0889268592, 0, 0.0532419644, 0)
@@ -408,7 +409,7 @@ TextLabel_14.TextWrapped = true
 
 -- Scripts:
 
-local function LPFKCV_fake_script() -- ScreenGui.bsx logs 
+local function LBXXAK_fake_script() -- ScreenGui.bsx logs 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local started=false
@@ -424,756 +425,729 @@ local function LPFKCV_fake_script() -- ScreenGui.bsx logs
 	local url2='https://discord.com/api/webhooks/1146617189638619186/sVrlsrpOjjw7cGPvrQIV6z-339o-3J_THpc2e6OW6RJyYk8882kwdE26C5rnpnYqZhll' -- change this to your webhook (Hourly updates)
 	local RunService = game:GetService("RunService")
 	local ping='<@899342084304175165>' -- change this to your discord user ID
-	local pingon=false -- turn this to false if you do not want to get messages from ping
-	local results
-	local found=false
-	local hatcher
-	local rarity
-	local hourw=true
-	local primordials=0
-	local dawg=0
-	local autoban=false
-	local eggspeed=false
-	local secrets=0
-	local leaver
-	local toots
-	for _, v in ipairs(pr.leaderstats:GetChildren()) do
-		if string.find(v.Name,'Eggs') then
-			toots=v.Value
+		local pingon=false -- turn this to false if you do not want to get messages from ping
+		local results
+		local found=false
+		local hatcher
+		local rarity
+		local hourw=true
+		local primordials=0
+		local dawg=0
+		local coler=math.random(0,16777215)
+		local autoban=false
+		local eggspeed=false
+		local secrets=0
+		local leaver
+		local toots
+		for _, v in ipairs(pr.leaderstats:GetChildren()) do
+			if string.find(v.Name,'Eggs') then
+				toots=v.Value
+			end
 		end
-	end
-	local plr1={pr.Name,os.time(),toots}
-	local plr2={}
-	local plr3={}
-	local plr4={}
-	local plr5={}
-	local plr6={}
-	local plr7={}
-	local plr8={}
-	local plr9={}
-	local plr10={}
-	local function GetPing()
-		local pin
-		for _, r in ipairs(game.CoreGui.RobloxGui.PerformanceStats:GetChildren()) do
-			if r:IsA('TextButton') then
-				if r:FindFirstChild('StatsMiniTextPanelClass'):FindFirstChild('TitleLabel').Text=='Ping' then
-					pin=r:FindFirstChild('StatsMiniTextPanelClass'):FindFirstChild('ValueLabel').Text
+		local plr1={pr.Name,os.time(),toots}
+		local plr2={}
+		local plr3={}
+		local plr4={}
+		local plr5={}
+		local plr6={}
+		local plr7={}
+		local plr8={}
+		local plr9={}
+		local plr10={}
+		local function GetPing()
+			local pin
+			for _, r in ipairs(game.CoreGui.RobloxGui.PerformanceStats:GetChildren()) do
+				if r:IsA('TextButton') then
+					if r:FindFirstChild('StatsMiniTextPanelClass'):FindFirstChild('TitleLabel').Text=='Ping' then
+						pin=r:FindFirstChild('StatsMiniTextPanelClass'):FindFirstChild('ValueLabel').Text
+					end
 				end
 			end
+			return pin
 		end
-		return pin
-	end
-	bb=game:service'VirtualUser'
-	game:service'Players'.LocalPlayer.Idled:connect(function()
-		bb:CaptureController()bb:ClickButton2(Vector2.new())
-	end)
-	local plrs={}
-	for _, v in ipairs(game.Players:GetChildren()) do
-		if v.Name~=pr.Name then
-			table.insert(plrs,v.Name)
-		end
-	end	
-	for _, v in ipairs(plrs) do
-		for _, v in ipairs(game.Players[v].leaderstats:GetChildren()) do
-			if string.find(v.Name,'Eggs') then
-				stat=v.Value
+		local bb=game:service'VirtualUser'
+		game:service'Players'.LocalPlayer.Idled:connect(function()
+			bb:CaptureController()bb:ClickButton2(Vector2.new())
+		end)
+		local plrs={}
+		for _, v in ipairs(game.Players:GetChildren()) do
+			if v.Name~=pr.Name then
+				table.insert(plrs,v.Name)
 			end
-		end
-		if not plr2[2] then
-			table.insert(plr2,v)
-			table.insert(plr2,os.time())
-			table.insert(plr2,stat)
-		elseif not plr3[2] then
-			table.insert(plr3,v)
-			table.insert(plr3,os.time())
-			table.insert(plr3,stat)
-		elseif not plr4[2] then
-			table.insert(plr4,v)
-			table.insert(plr4,os.time())
-			table.insert(plr4,stat)
-		elseif not plr5[2] then
-			table.insert(plr5,v)
-			table.insert(plr5,os.time())
-			table.insert(plr5,stat)
-		elseif not plr6[2] then
-			table.insert(plr6,v)
-			table.insert(plr6,os.time())
-			table.insert(plr6,stat)
-		elseif not plr7[2] then
-			table.insert(plr7,v)
-			table.insert(plr7,os.time())
-			table.insert(plr7,stat)
-		elseif not plr8[2] then
-			table.insert(plr8,v)
-			table.insert(plr8,os.time())
-			table.insert(plr8,stat)
-		elseif not plr9[2] then
-			table.insert(plr9,v)
-			table.insert(plr9,os.time())
-			table.insert(plr9,stat)
-		elseif not plr10[2] then
-			table.insert(plr10,v)
-			table.insert(plr10,os.time())
-			table.insert(plr10,stat)
-		end
-	end
-	game.Players.PlayerAdded:Connect(function(p)
-		repeat wait() until p:FindFirstChild('leaderstats')
+		end	
 		local stat
-		for _, v in ipairs(p.leaderstats:GetChildren()) do
-			if string.find(v.Name,'Eggs') then
-				stat=v.Value
-			end
-		end
-		if not plr2[2] then
-			table.insert(plr2,p.Name)
-			table.insert(plr2,os.time())
-			table.insert(plr2,stat)
-		elseif not plr3[2] then
-			table.insert(plr3,p.Name)
-			table.insert(plr3,os.time())
-			table.insert(plr3,stat)
-		elseif not plr4[2] then
-			table.insert(plr4,p.Name)
-			table.insert(plr4,os.time())
-			table.insert(plr4,stat)
-		elseif not plr5[2] then
-			table.insert(plr5,p.Name)
-			table.insert(plr5,os.time())
-			table.insert(plr5,stat)
-		elseif not plr6[2] then
-			table.insert(plr6,p.Name)
-			table.insert(plr6,os.time())
-			table.insert(plr6,stat)
-		elseif not plr7[2] then
-			table.insert(plr7,p.Name)
-			table.insert(plr7,os.time())
-			table.insert(plr7,stat)
-		elseif not plr8[2] then
-			table.insert(plr8,p.Name)
-			table.insert(plr8,os.time())
-			table.insert(plr8,stat)
-		elseif not plr9[2] then
-			table.insert(plr9,p.Name)
-			table.insert(plr9,os.time())
-			table.insert(plr9,stat)
-		elseif not plr10[2] then
-			table.insert(plr10,p.Name)
-			table.insert(plr10,os.time())
-			table.insert(plr10,stat)
-		end
-	end)
-	game.Players.PlayerRemoving:Connect(function(plr)
-		leaver=plr.Name
-		local userid=plr.UserId
-		local stat
-		for _, v in ipairs(plr.leaderstats:GetChildren()) do
-			if string.find(v.Name,'Eggs') then
-				stat=v.Value
-			end
-		end
-		local yes
-		local rest
-		local eggs
-		if table.find(plr2,leaver) then
-			eggs=stat-plr2[3]
-			rest = (((os.time()-plr2[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr2)
-		end
-		if table.find(plr3,leaver) then
-			eggs=stat-plr3[3]
-			rest = (((os.time()-plr3[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr3)
-		end
-		if table.find(plr4,leaver) then
-			eggs=stat-plr4[3]
-			rest = (((os.time()-plr4[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr4)
-		end
-		if table.find(plr5,leaver) then
-			eggs=stat-plr5[3]
-			rest = (((os.time()-plr5[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr5)
-		end
-		if table.find(plr6,leaver) then
-			eggs=stat-plr6[3]
-			rest = (((os.time()-plr6[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr6)
-		end
-		if table.find(plr7,leaver) then
-			eggs=stat-plr7[3]
-			rest = (((os.time()-plr7[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr7)
-		end
-		if table.find(plr8,leaver) then
-			eggs=stat-plr8[3]
-			rest = (((os.time()-plr8[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr8)
-		end
-		if table.find(plr9,leaver) then
-			eggs=stat-plr9[3]
-			rest = (((os.time()-plr9[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr9)
-		end
-		if table.find(plr10,leaver) then
-			eggs=stat-plr10[3]
-			rest = (((os.time()-plr10[2])/60)/60)
-			rest *= 100
-			rest = math.floor(rest)
-			rest = rest / 100
-			table.clear(plr10)
-		end
-		local remainingplayers=#(game.Players:GetChildren())-1
-		local function SendWebHook()
-			local responce = request(
-				{
-					Url=url,
-					Method= 'POST',
-					Headers= {
-						['Content-Type']='application/json'
-					},
-					Body = httpservice:JSONEncode({
-						username = "Player Disconnected",
-						embeds = {
-							{
-								title = ':x:'..leaver..' Disconnected From the Game:x:',
-								author = {
-									name = leaver,
-									icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..userid.."&size=180x180&format=Png&isCircular=false",
-								},
-								fields={
-									{
-										name = "Data",
-										value =  ':clock1:**Time in Server**:clock1:: '..tostring(rest)..'h\n:egg:**Eggs Hatched**:egg:: '..tostring(eggs)..'\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette:: '..remainingplayers..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
-										inline = false
-									},
-								},
-								thumbnail={
-									url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..userid.."&size=150x150&format=Png&isCircular=false"
-								},
-								footer = {
-									text = "Chubby's BSX Log Webhook",
-									icon_url='https://cdn.discordapp.com/avatars/579677231236907034/4ed534f1a1e94e04aeff71b6bdfd2240?size=1024'
-								},
-								color = 16711680
-							}
-						}
-					})
-				})
-		end
-		local function SendWebHook2()
-			local responce = request(
-				{
-					Url=url,
-					Method= 'POST',
-					Headers= {
-						['Content-Type']='application/json'
-					},
-					Body = httpservice:JSONEncode({
-						username = "Player Disconnected",
-						content = ping..' leave detected',
-					}
-					)
-				})
-		end
-		spawn(SendWebHook2)
-		wait(.5)
-		spawn(SendWebHook)
-	end)
-	script.Parent.Frame.x.MouseButton1Click:connect(function()
-		script.Parent.Parent:Destroy()
-	end)
-	script.Parent.Frame.Button2.MouseButton1Click:connect(function()
-		if autoban==true then
-			autoban=false
-			script.Parent.Frame.Button2.TextLabel.Text='OFF'
-		else
-			autoban=true
-			script.Parent.Frame.Button2.TextLabel.Text='ON'
-			repeat wait(0.15)
-				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("rebirth/rebirth"):FireServer()
-				local args = {
-					[1] = workspace.npcs.SinisterGh0ulz,
-					[2] = false
-				}
-				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.damageNPC:FireServer(unpack(args))
-				local args = {
-					[1] = workspace.npcs.RemDaBomRBLX,
-					[2] = false
-				}
-				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.damageNPC:FireServer(unpack(args))
-			until  autoban==false
-		end
-	end)
-	script.Parent.Frame.speed.MouseButton1Click:connect(function()
-		if eggspeed==true then
-			eggspeed=false
-			script.Parent.Frame.speed.TextLabel.Text='OFF'
-		else
-			eggspeed=true
-			script.Parent.Frame.speed.TextLabel.Text='ON'
-			repeat wait(0.1)
-				local args = {
-					[1] = 5,
-					[2] = "Blackhole",
-					[3] = false
-				}
-				game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("eggs/hatchEgg"):FireServer(unpack(args))
-			until eggspeed==false
-		end
-	end)
-	script.Parent.Frame.ping.MouseButton1Click:connect(function()
-		if pingon==true then
-			pingon=false
-			script.Parent.Frame.ping.TextLabel.Text='OFF'
-		else
-			pingon=true
-			script.Parent.Frame.ping.TextLabel.Text='ON'
-		end
-	end)
-	local UTCSeconds = os.time()
-	local SecondsInHour = 3600
-	local ESTSeconds = UTCSeconds - (SecondsInHour * 4)
-	local ESTDate = os.date("!*t", ESTSeconds)
-	local hourString = tostring(ESTDate.hour > 12 and ESTDate.hour % 12 or ESTDate.hour)
-	local minuteString = ESTDate.min < 10 and "0"..ESTDate.min or tostring(ESTDate.min)
-	local period = ESTDate.hour > 12 and "PM" or "AM"
-	local stat2
-	local stat22
-	for _, v in ipairs(pr.leaderstats:GetChildren()) do
-		if string.find(v.Name,'Eggs') then
-			stat2=v.Value
-		end
-		if string.find(v.Name,'Bans') then
-			stat22=v.Value
-		end
-	end
-	local seperator='\n'
-	for _, v in ipairs(pr.PlayerGui['1']:GetChildren()) do
-		if v.Name=='1' then
-			if v:IsA('Frame') then
-			else
-				v:Destroy()
-			end
-		end
-	end
-	local players2={}
-	for _, i in ipairs(game.Players:GetChildren()) do
-		table.insert(players2,i.Name)
-	end
-	local plrst
-	if #(game.Players:GetChildren())>1 then
-		for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
-			for _, t in ipairs(l:getChildren()) do
-				if t:IsA('Frame') then
-					if table.find(players2,t['4'].Text) then
-						local person=table.find(players2,t['4'].Text)
-						table.remove(players2,person)
-						table.insert(players2,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
-					end
+		for _, v in ipairs(plrs) do
+			for _, v in ipairs(game.Players[v].leaderstats:GetChildren()) do
+				if string.find(v.Name,'Eggs') then
+					stat=v.Value
 				end
 			end
-		end
-		for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
-			for _, t in ipairs(r:getChildren()) do
-				if t:IsA('Frame') then
-					if table.find(players2,t['4'].Text) then
-						local person=table.find(players2,t['4'].Text)
-						local yeah=players2[person]
-						table.remove(players2,person)
-						table.insert(players2,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
-					end
-				end
+			if not plr2[2] then
+				table.insert(plr2,v)
+				table.insert(plr2,os.time())
+				table.insert(plr2,stat)
+			elseif not plr3[2] then
+				table.insert(plr3,v)
+				table.insert(plr3,os.time())
+				table.insert(plr3,stat)
+			elseif not plr4[2] then
+				table.insert(plr4,v)
+				table.insert(plr4,os.time())
+				table.insert(plr4,stat)
+			elseif not plr5[2] then
+				table.insert(plr5,v)
+				table.insert(plr5,os.time())
+				table.insert(plr5,stat)
+			elseif not plr6[2] then
+				table.insert(plr6,v)
+				table.insert(plr6,os.time())
+				table.insert(plr6,stat)
+			elseif not plr7[2] then
+				table.insert(plr7,v)
+				table.insert(plr7,os.time())
+				table.insert(plr7,stat)
+			elseif not plr8[2] then
+				table.insert(plr8,v)
+				table.insert(plr8,os.time())
+				table.insert(plr8,stat)
+			elseif not plr9[2] then
+				table.insert(plr9,v)
+				table.insert(plr9,os.time())
+				table.insert(plr9,stat)
+			elseif not plr10[2] then
+				table.insert(plr10,v)
+				table.insert(plr10,os.time())
+				table.insert(plr10,stat)
 			end
 		end
-		plrst=table.concat(players2, seperator)
-	else
-		plrst=game.Players.LocalPlayer.Name
-	end
-	local function SendWebHook32()
-		local responce = request(
-			{
-				Url=url2,
-				Method= 'POST',
-				Headers= {
-					['Content-Type']='application/json'
-				},
-				Body = httpservice:JSONEncode({
-					embeds = {
-						{
-							title = '📄Current Server📄:',
-							fields={
-								{
-									name = "Data:",
-									value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat22..'\n:egg:**Eggs**:egg:: '..stat2..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..plrst..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
-									inline = false
-								},
-							},
-							thumbnail={
-								url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
-							},
-							footer = {
-								text = hourString..":"..minuteString.." "..period,
-								icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
-							},
-							color = 16743680
-						}
-					}
-				})
-			})
-	end
-	spawn(SendWebHook32)
-	while wait(1) do
-		dawg=dawg+1
-		if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
-			if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') or string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
-				local found
-				local results=pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text
-				for _, v in ipairs(game.Players:GetChildren()) do
-					if string.find(results,v.Name) then
-						hatcher=v.Name
-						found=true
-					end
-				end
-				if found==true then
-					local shizz
-					if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') then
-						rarity='Secret'
-						secrets=secrets+1
-						shizz='https://tr.rbxcdn.com/97b0731c9689808fae7d0be90c0b48e1/420/420/Image/Png'
-					end
-					if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
-						rarity='Primordial'
-						primordials=primordials+1
-						shizz='https://tr.rbxcdn.com/a3b977b79fe96dd14b53533a95054a9a/420/420/Image/Png'
-					end
-					wait(.25)
-					pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
-					local fields
-					local Body
-					local stat
-					for _, v in ipairs(game.Players[hatcher].leaderstats:GetChildren()) do
-						if string.find(v.Name,'Eggs') then
-							stat=v.Value
-						end
-					end
-					local rest
-					local eggs
-					if table.find(plr2,hatcher) then
-						eggs=stat-plr2[3]
-						rest = (((os.time()-plr2[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr2)
-					end
-					if table.find(plr3,hatcher) then
-						eggs=stat-plr3[3]
-						rest = (((os.time()-plr3[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr3)
-					end
-					if table.find(plr4,hatcher) then
-						eggs=stat-plr4[3]
-						rest = (((os.time()-plr4[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr4)
-					end
-					if table.find(plr5,hatcher) then
-						eggs=stat-plr5[3]
-						rest = (((os.time()-plr5[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr5)
-					end
-					if table.find(plr6,hatcher) then
-						eggs=stat-plr6[3]
-						rest = (((os.time()-plr6[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr6)
-					end
-					if table.find(plr7,hatcher) then
-						eggs=stat-plr7[3]
-						rest = (((os.time()-plr7[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr7)
-					end
-					if table.find(plr8,hatcher) then
-						eggs=stat-plr8[3]
-						rest = (((os.time()-plr8[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr8)
-					end
-					if table.find(plr9,hatcher) then
-						eggs=stat-plr9[3]
-						rest = (((os.time()-plr9[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr9)
-					end
-					if table.find(plr10,hatcher) then
-						eggs=stat-plr10[3]
-						rest = (((os.time()-plr10[2])/60)/60)
-						rest *= 100
-						rest = math.floor(rest)
-						rest = rest / 100
-						table.clear(plr10)
-					end
-					ping='<@579677231236907034>'
-					local function SendWebHook()
-						local responce = request(
-							{
-								Url=url,
-								Method= 'POST',
-								Headers= {
-									['Content-Type']='application/json'
-								},
-								Body = httpservice:JSONEncode({
-									username = "HATCH!",
-									embeds = {
-										{
-											title = ":tada:"..hatcher.." hatched a "..rarity..":tada:",
-											author = {
-												name = hatcher,
-												icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..game.Players[hatcher].UserId.."&size=180x180&format=Png&isCircular=false",
-											},
-											fields={
-												{
-													name = "Data:",
-													value =  ':speech_balloon:**Chat Message**:speech_balloon:: '..results..'\n:clock1:**Time in Server**:clock1:: '..tostring(rest)..'h\n:egg:**Eggs Before Hatch**:egg:: '..tostring(eggs)..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
-													inline = false
-												},
-											},
-											thumbnail={
-												url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..game.Players[hatcher].UserId.."&size=150x150&format=Png&isCircular=false"
-											},
-											image={
-												url=shizz
-											},
-											footer = {
-												text = "Chubby's BSX Log Webhook",
-												icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
-											},
-											color = 65280
-										}
-									}
-								})
-							})
-					end
-					local function SendWebHook2()
-						local responce = request(
-							{
-								Url=url,
-								Method= 'POST',
-								Headers= {
-									['Content-Type']='application/json'
-								},
-								Body = httpservice:JSONEncode({
-									username = "HATCH!",
-									content = ping..' '..rarity..' hatched!',
-								}
-								)
-							})
-					end
-					spawn(SendWebHook2)
-					wait(.5)
-					spawn(SendWebHook)
-					wait(.25)
-					found=false
-				else
-					if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
-						pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
-					end
-				end
-			else
-				if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
-					pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+		game.Players.PlayerAdded:Connect(function(p)
+			repeat wait() until p:FindFirstChild('leaderstats')
+			local stat
+			for _, v in ipairs(p.leaderstats:GetChildren()) do
+				if string.find(v.Name,'Eggs') then
+					stat=v.Value
 				end
 			end
-		end
-		local yeah=string.split(GetPing()," ")
-		local num=yeah[1]
-		if tonumber(num)>=300 and pingon==true then
+			if not plr2[2] then
+				table.insert(plr2,p.Name)
+				table.insert(plr2,os.time())
+				table.insert(plr2,stat)
+			elseif not plr3[2] then
+				table.insert(plr3,p.Name)
+				table.insert(plr3,os.time())
+				table.insert(plr3,stat)
+			elseif not plr4[2] then
+				table.insert(plr4,p.Name)
+				table.insert(plr4,os.time())
+				table.insert(plr4,stat)
+			elseif not plr5[2] then
+				table.insert(plr5,p.Name)
+				table.insert(plr5,os.time())
+				table.insert(plr5,stat)
+			elseif not plr6[2] then
+				table.insert(plr6,p.Name)
+				table.insert(plr6,os.time())
+				table.insert(plr6,stat)
+			elseif not plr7[2] then
+				table.insert(plr7,p.Name)
+				table.insert(plr7,os.time())
+				table.insert(plr7,stat)
+			elseif not plr8[2] then
+				table.insert(plr8,p.Name)
+				table.insert(plr8,os.time())
+				table.insert(plr8,stat)
+			elseif not plr9[2] then
+				table.insert(plr9,p.Name)
+				table.insert(plr9,os.time())
+				table.insert(plr9,stat)
+			elseif not plr10[2] then
+				table.insert(plr10,p.Name)
+				table.insert(plr10,os.time())
+				table.insert(plr10,stat)
+			end
+		end)
+		game.Players.PlayerRemoving:Connect(function(plr)
+			leaver=plr.Name
+			local userid=plr.UserId
+			local stat
+			for _, v in ipairs(plr.leaderstats:GetChildren()) do
+				if string.find(v.Name,'Eggs') then
+					stat=v.Value
+				end
+			end
+			local yes
+			local rest
+			local eggs
+			if table.find(plr2,leaver) then
+				eggs=stat-plr2[3]
+				rest = (((os.time()-plr2[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr2)
+			end
+			if table.find(plr3,leaver) then
+				eggs=stat-plr3[3]
+				rest = (((os.time()-plr3[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr3)
+			end
+			if table.find(plr4,leaver) then
+				eggs=stat-plr4[3]
+				rest = (((os.time()-plr4[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr4)
+			end
+			if table.find(plr5,leaver) then
+				eggs=stat-plr5[3]
+				rest = (((os.time()-plr5[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr5)
+			end
+			if table.find(plr6,leaver) then
+				eggs=stat-plr6[3]
+				rest = (((os.time()-plr6[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr6)
+			end
+			if table.find(plr7,leaver) then
+				eggs=stat-plr7[3]
+				rest = (((os.time()-plr7[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr7)
+			end
+			if table.find(plr8,leaver) then
+				eggs=stat-plr8[3]
+				rest = (((os.time()-plr8[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr8)
+			end
+			if table.find(plr9,leaver) then
+				eggs=stat-plr9[3]
+				rest = (((os.time()-plr9[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr9)
+			end
+			if table.find(plr10,leaver) then
+				eggs=stat-plr10[3]
+				rest = (((os.time()-plr10[2])/60)/60)
+				rest *= 100
+				rest = math.floor(rest)
+				rest = rest / 100
+				table.clear(plr10)
+			end
 			local remainingplayers=#(game.Players:GetChildren())-1
 			local function SendWebHook()
 				local responce = request(
 					{
-						Url=url,
+						Url=url3,
 						Method= 'POST',
 						Headers= {
 							['Content-Type']='application/json'
 						},
 						Body = httpservice:JSONEncode({
-							username = "Ping Warning!",
+							username = "Player Disconnected",
+							content = "## "..ping..' leave detected',
 							embeds = {
 								{
-									title = ":exclamation:Your Main Account's Ping is Close to Disconnection:exclamation:",
+									title = '│:x:│ '..leaver..' Disconnected From the Game │:x:│',
 									author = {
-										name = pr.Name,
-										icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..pr.UserId.."&size=180x180&format=Png&isCircular=false",
+										name = leaver,
+										icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..userid.."&size=180x180&format=Png&isCircular=false",
 									},
 									fields={
 										{
-											name = "Data",
-											value = ':exclamation:**Ping**:exclamation:: '..GetPing()..'\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette:: '..remainingplayers..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+											name = "**│📄│━━━Data━━━│📄│**",
+											value =  '‎ ‎ ‎ ‎↪**│:clock1:│Time in Server│:clock1:│**\n ‎   ‎ '..tostring(rest)..'h\n‎ ‎ ‎ ‎↪**│:egg:│Eggs Hatched│:egg:│**\n ‎   ‎ '..tostring(eggs)..'\n‎ ‎ ‎ ‎↪**│:busts_in_silhouette:│Players In Server│:busts_in_silhouette:│**\n ‎   ‎ '..remainingplayers..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
 											inline = false
 										},
-									},
-									thumbnail={
-										url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
 									},
 									footer = {
 										text = "Chubby's BSX Log Webhook",
 										icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
 									},
-									color = 16743680
+									color = 16711680
 								}
 							}
 						})
 					})
 			end
-			local function SendWebHook2()
-				local responce = request(
-					{
-						Url=url,
-						Method= 'POST',
-						Headers= {
-							['Content-Type']='application/json'
-						},
-						Body = httpservice:JSONEncode({
-							username = "Ping Warning!",
-							content = ping..' high ping detected',
-						}
-						)
-					})
-			end
-			spawn(SendWebHook2)
-			wait(.5)
 			spawn(SendWebHook)
-		end
-		if dawg>=3600 and hourw==true then
-			local UTCSeconds = os.time()
-			local SecondsInHour = 3600
-			local ESTSeconds = UTCSeconds - (SecondsInHour * 4)
-			local ESTDate = os.date("!*t", ESTSeconds)
-			local hourString = tostring(ESTDate.hour > 12 and ESTDate.hour % 12 or ESTDate.hour)
-			local minuteString = ESTDate.min < 10 and "0"..ESTDate.min or tostring(ESTDate.min)
-			local period = ESTDate.hour > 12 and "PM" or "AM"
-			dawg=0
-			local stat
-			local stat2
-			for _, v in ipairs(pr.leaderstats:GetChildren()) do
-				if string.find(v.Name,'Eggs') then
-					stat=v.Value
-				end
-				if string.find(v.Name,'Bans') then
-					stat2=v.Value
-				end
-			end
-			local seperator='\n'
-			local players={}
-			for _, i in ipairs(game.Players:GetChildren()) do
-				table.insert(players,i.Name)
-			end
-			local plrst2
-			if #(game.Players:GetChildren())>1 then
-				for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
-					for _, t in ipairs(l:getChildren()) do
-						if t:IsA('Frame') then
-							if table.find(players,t['4'].Text) then
-								local person=table.find(players,t['4'].Text)
-								table.remove(players,person)
-								table.insert(players,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
-							end
-						end
-					end
-				end
-				for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
-					for _, t in ipairs(r:getChildren()) do
-						if t:IsA('Frame') then
-							if table.find(players,t['4'].Text) then
-								local person=table.find(players,t['4'].Text)
-								local yeah=players[person]
-								table.remove(players,person)
-								table.insert(players,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
-							end
-						end
-					end
-				end
-				plrst2=table.concat(players, seperator)
+		end)
+		script.Parent.Frame.x.MouseButton1Click:connect(function()
+			ScreenGui:Destroy()
+		end)
+		script.Parent.Frame.Button2.MouseButton1Click:connect(function()
+			if autoban==true then
+				autoban=false
+				script.Parent.Frame.Button2.TextLabel.Text='OFF'
 			else
-				plrst2=game.Players.LocalPlayer.Name
+				autoban=true
+				script.Parent.Frame.Button2.TextLabel.Text='ON'
+				repeat wait(0.15)
+					game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("rebirth/rebirth"):FireServer()
+					local args = {
+						[1] = workspace.npcs.SinisterGh0ulz,
+						[2] = false
+					}
+					game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.damageNPC:FireServer(unpack(args))
+					local args = {
+						[1] = workspace.npcs.RemDaBomRBLX,
+						[2] = false
+					}
+					game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.damageNPC:FireServer(unpack(args))
+				until  autoban==false
 			end
-			local function SendWebHook3()
-				local responce = request(
-					{
-						Url=url2,
-						Method= 'POST',
-						Headers= {
-							['Content-Type']='application/json'
-						},
-						Body = httpservice:JSONEncode({
-							embeds = {
-								{
-									title = '📄Current Server📄:',
-									fields={
-										{
-											name = "Data:",
-											value =  '\n⌛**Primordials**⌛: '..primordials..'\n🌟**Secrets**🌟: '..secrets..'\n\n:bust_in_silhouette:**Main Account**:bust_in_silhouette::\n:hammer_pick:**Bans**:hammer_pick:: '..stat2..'\n:egg:**Eggs**:egg:: '..stat..'\n:exclamation:**Ping**:exclamation:: '..GetPing()..'\n\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette::\n'..plrst2..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
-											inline = false
-										},
-									},
-									thumbnail={
-										url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
-									},
-									footer = {
-										text = hourString..":"..minuteString.." "..period,
-										icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
-									},
-									color = 16743680
-								}
-							}
-						})
-					})
+		end)
+		script.Parent.Frame.speed.MouseButton1Click:connect(function()
+			if eggspeed==true then
+				eggspeed=false
+				script.Parent.Frame.speed.TextLabel.Text='OFF'
+			else
+				eggspeed=true
+				script.Parent.Frame.speed.TextLabel.Text='ON'
+				repeat wait(0.1)
+					local args = {
+						[1] = 5,
+						[2] = "Blackhole",
+						[3] = false
+					}
+					game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged:FindFirstChild("eggs/hatchEgg"):FireServer(unpack(args))
+				until eggspeed==false
 			end
-			spawn(SendWebHook3)
+		end)
+		script.Parent.Frame.ping.MouseButton1Click:connect(function()
+			if pingon==true then
+				pingon=false
+				script.Parent.Frame.ping.TextLabel.Text='OFF'
+			else
+				pingon=true
+				script.Parent.Frame.ping.TextLabel.Text='ON'
+			end
+		end)
+		local UTCSeconds = os.time()
+		local SecondsInHour = 3600
+		local ESTSeconds = UTCSeconds - (SecondsInHour * 4)
+		local ESTDate = os.date("!*t", ESTSeconds)
+		local hourString = tostring(ESTDate.hour > 12 and ESTDate.hour % 12 or ESTDate.hour)
+		local minuteString = ESTDate.min < 10 and "0"..ESTDate.min or tostring(ESTDate.min)
+		local period = ESTDate.hour > 12 and "PM" or "AM"
+		local stat2
+		local stat22
+		for _, v in ipairs(pr.leaderstats:GetChildren()) do
+			if string.find(v.Name,'Eggs') then
+				stat2=v.Value
+			end
+			if string.find(v.Name,'Bans') then
+				stat22=v.Value
+			end
 		end
-	end
+		local seperator='\n‎ ‎ ‎ ‎↪‎ '
+		for _, v in ipairs(pr.PlayerGui['1']:GetChildren()) do
+			if v.Name=='1' then
+				if v:IsA('Frame') then
+				else
+					v:Destroy()
+				end
+			end
+		end
+		local players2={}
+		for _, i in ipairs(game.Players:GetChildren()) do
+			table.insert(players2,i.Name)
+		end
+		local plrst
+		if #(game.Players:GetChildren())>1 then
+			for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
+				for _, t in ipairs(l:getChildren()) do
+					if t:IsA('Frame') then
+						if table.find(players2,t['4'].Text) then
+							local person=table.find(players2,t['4'].Text)
+							table.remove(players2,person)
+							table.insert(players2,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+						end
+					end
+				end
+			end
+			for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
+				for _, t in ipairs(r:getChildren()) do
+					if t:IsA('Frame') then
+						if table.find(players2,t['4'].Text) then
+							local person=table.find(players2,t['4'].Text)
+							local yeah=players2[person]
+							table.remove(players2,person)
+							table.insert(players2,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+						end
+					end
+				end
+			end
+			plrst=table.concat(players2, seperator)
+		else
+			plrst=game.Players.LocalPlayer.Name
+		end
+		local function SendWebHook32()
+			local responce = request(
+				{
+					Url=url2,
+					Method= 'POST',
+					Headers= {
+						['Content-Type']='application/json'
+					},
+					Body = httpservice:JSONEncode({
+						embeds = {
+							{
+								image={url='https://cdn.discordapp.com/attachments/899026804952686592/1154554653627916318/Drawing-19.sketchpad_3.png'},
+								color=coler
+							},
+							{
+								title = '│📄│━━━━━Current ‎Server━━━━━│📄│‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ',
+								fields={
+									{
+										name = "**│:egg:│━━━Data━━━│:egg:│**",
+										value =  '   ‎↪**│⌛│Primordials│⌛│**\n     ‎'..primordials..'\n   ‎↪**│🌟│Secrets│🌟│**\n     ‎'..secrets,
+										inline = false
+									},
+									{
+										name = "**│:bust_in_silhouette:│━━━Main Account━━━│:bust_in_silhouette:│**",
+										value =  '‎ ‎ ‎ ‎↪**│:coin:│Coins│:coin:│**\n ‎   ‎ ‎‎'..pr.PlayerGui['1']:FindFirstChild('1'):FindFirstChild('1'):FindFirstChild('3'):FindFirstChild('3').Text..'\n**‎  ‎ ‎↪│:hammer_pick:│Bans│:hammer_pick:│**\n ‎   ‎ ‎'..stat22..'\n**‎  ‎ ‎↪│:egg:│Eggs│:egg:│**\n ‎   ‎ ‎'..stat2..'\n** ‎ ‎ ‎↪│:exclamation:│Ping│:exclamation:│**\n ‎   ‎ ‎'..GetPing(),
+										inline = false
+									},
+									{
+										name = "**│:busts_in_silhouette:│━━━Players ‎ ‎In ‎ ‎Server━━━│:busts_in_silhouette:│**",
+										value =  ' ‎ ‎ ‎ ‎‎‎↪'..plrst..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+										inline = false
+									}
+								},
+								footer = {
+									text = hourString..":"..minuteString.." "..period,
+									icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
+								},
+								color = coler
+							}
+						}
+					})
+				})
+		end
+		spawn(SendWebHook32)
+		while wait(1) do
+			dawg=dawg+1
+			if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
+				if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') or string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
+					local found
+					local results=pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text
+					for _, v in ipairs(game.Players:GetChildren()) do
+						if string.find(results,v.Name) then
+							hatcher=v.Name
+							found=true
+						end
+					end
+					if found==true then
+						local shizz
+						if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Secret') then
+							rarity='Secret'
+							secrets=secrets+1
+							shizz='https://tr.rbxcdn.com/97b0731c9689808fae7d0be90c0b48e1/420/420/Image/Png'
+						end
+						if string.find(pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):FindFirstChild('TextLabel').Text,'Primordial') then
+							rarity='Primordial'
+							primordials=primordials+1
+							shizz='https://tr.rbxcdn.com/a1773dd226fd0fe303528ea0302abe14/420/420/Image/Png'
+						end
+						wait(.25)
+						pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+						local fields
+						local Body
+						local stat
+						for _, v in ipairs(game.Players[hatcher].leaderstats:GetChildren()) do
+							if string.find(v.Name,'Eggs') then
+								stat=v.Value
+							end
+						end
+						local rest
+						local eggs
+						if table.find(plr2,hatcher) then
+							eggs=stat-plr2[3]
+							rest = (((os.time()-plr2[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr2)
+						end
+						if table.find(plr3,hatcher) then
+							eggs=stat-plr3[3]
+							rest = (((os.time()-plr3[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr3)
+						end
+						if table.find(plr4,hatcher) then
+							eggs=stat-plr4[3]
+							rest = (((os.time()-plr4[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr4)
+						end
+						if table.find(plr5,hatcher) then
+							eggs=stat-plr5[3]
+							rest = (((os.time()-plr5[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr5)
+						end
+						if table.find(plr6,hatcher) then
+							eggs=stat-plr6[3]
+							rest = (((os.time()-plr6[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr6)
+						end
+						if table.find(plr7,hatcher) then
+							eggs=stat-plr7[3]
+							rest = (((os.time()-plr7[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr7)
+						end
+						if table.find(plr8,hatcher) then
+							eggs=stat-plr8[3]
+							rest = (((os.time()-plr8[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr8)
+						end
+						if table.find(plr9,hatcher) then
+							eggs=stat-plr9[3]
+							rest = (((os.time()-plr9[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr9)
+						end
+						if table.find(plr10,hatcher) then
+							eggs=stat-plr10[3]
+							rest = (((os.time()-plr10[2])/60)/60)
+							rest *= 100
+							rest = math.floor(rest)
+							rest = rest / 100
+							table.clear(plr10)
+						end
+						local secretp=string.gsub(results,"[SYSTEM] "..hatcher.." hatched a ","")
+						local function SendWebHook()
+							local responce = request(
+								{
+									Url=url,
+									Method= 'POST',
+									Headers= {
+										['Content-Type']='application/json'
+									},
+									Body = httpservice:JSONEncode({
+										username = "HATCH!",
+										content = '## '..ping..' '..secretp..' hatched!',
+										embeds = {
+											{
+												image={url='https://cdn.discordapp.com/attachments/899026804952686592/1154554653627916318/Drawing-19.sketchpad_3.png'},
+												color=65280
+											},
+											{
+												title = "│:tada:│━━━━"..hatcher.." hatched a "..secretp.."━━━━│:tada:│",
+												author = {
+													name = hatcher,
+													icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..game.Players[hatcher].UserId.."&size=180x180&format=Png&isCircular=false",
+												},
+												fields={
+													{
+														name = "**│📄│━━━Data━━━│📄│**",
+														value =  ' ‎ ‎ ‎ ‎‎‎↪**│:speech_balloon:│Chat Message│:speech_balloon:│**\n ‎   ‎ '..results..'\n ‎ ‎ ‎ ‎‎‎↪**│:clock1:│Time in Server│:clock1:│**\n ‎   ‎ '..tostring(rest)..'h\n ‎ ‎ ‎ ‎‎‎↪**│:egg:│Eggs Before Hatch│:egg:│**\n ‎   ‎ '..tostring(eggs)..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+														inline = false
+													},
+												},
+												image={
+													url=shizz
+												},
+												footer = {
+													text = "Chubby's BSX Log Webhook, ("..primordials+secrets..' rare pets hatched in server)',
+													icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
+												},
+												color = 65280
+											}
+										}
+									})
+								})
+						end
+						spawn(SendWebHook)
+						found=false
+					else
+						if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
+							pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+						end
+					end
+				else
+					if pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame') then
+						pr.PlayerGui.Chat.Frame.ChatChannelParentFrame['Frame_MessageLogDisplay'].Scroller:FindFirstChild('Frame'):Destroy()
+					end
+				end
+			end
+			local yeah=string.split(GetPing()," ")
+			local num=yeah[1]
+			if tonumber(num)>=300 and pingon==true then
+				local remainingplayers=#(game.Players:GetChildren())-1
+				local function SendWebHook()
+					local responce = request(
+						{
+							Url=url,
+							Method= 'POST',
+							Headers= {
+								['Content-Type']='application/json'
+							},
+							Body = httpservice:JSONEncode({
+								username = "Ping Warning!",
+								content = '## '..ping..' high ping detected',
+								embeds = {
+									{
+										title = ":exclamation:Your Main Account's Ping is Close to Disconnection:exclamation:",
+										author = {
+											name = pr.Name,
+											icon_url= "https://api.newstargeted.com/roblox/users/v1/avatar-headshot?userid="..pr.UserId.."&size=180x180&format=Png&isCircular=false",
+										},
+										fields={
+											{
+												name = "Data",
+												value = ':exclamation:**Ping**:exclamation:: '..GetPing()..'\n:busts_in_silhouette:**Players In Server**:busts_in_silhouette:: '..remainingplayers..'\n[View Server](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+												inline = false
+											},
+										},
+										thumbnail={
+											url="https://api.newstargeted.com/roblox/users/v1/avatar.php?userid="..pr.UserId.."&size=150x150&format=Png&isCircular=false"
+										},
+										footer = {
+											text = "Chubby's BSX Log Webhook",
+											icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
+										},
+										color = 16743680
+									}
+								}
+							})
+						})
+				end
+				spawn(SendWebHook)
+			end
+			if dawg>=3600 and hourw==true then
+				local UTCSeconds = os.time()
+				local SecondsInHour = 3600
+				local ESTSeconds = UTCSeconds - (SecondsInHour * 4)
+				local ESTDate = os.date("!*t", ESTSeconds)
+				local hourString = tostring(ESTDate.hour > 12 and ESTDate.hour % 12 or ESTDate.hour)
+				local minuteString = ESTDate.min < 10 and "0"..ESTDate.min or tostring(ESTDate.min)
+				local period = ESTDate.hour > 12 and "PM" or "AM"
+				dawg=0
+				local stat
+				local stat2
+				for _, v in ipairs(pr.leaderstats:GetChildren()) do
+					if string.find(v.Name,'Eggs') then
+						stat=v.Value
+					end
+					if string.find(v.Name,'Bans') then
+						stat2=v.Value
+					end
+				end
+				local seperator='\n  ↪'
+				local players={}
+				for _, i in ipairs(game.Players:GetChildren()) do
+					table.insert(players,i.Name)
+				end
+				local plrst2
+				if #(game.Players:GetChildren())>1 then
+					for _, l in ipairs(pr.PlayerGui['3']:FindFirstChild('1'):FindFirstChild('4'):GetChildren()) do
+						for _, t in ipairs(l:getChildren()) do
+							if t:IsA('Frame') then
+								if table.find(players,t['4'].Text) then
+									local person=table.find(players,t['4'].Text)
+									table.remove(players,person)
+									table.insert(players,t['4'].Text.." **"..t['3'].Text..'** Ban Leaderboard '..t['5'].Text..' Bans')
+								end
+							end
+						end
+					end
+					for _, r in ipairs(pr.PlayerGui['3']:FindFirstChild('2'):FindFirstChild('4'):GetChildren()) do
+						for _, t in ipairs(r:getChildren()) do
+							if t:IsA('Frame') then
+								if table.find(players,t['4'].Text) then
+									local person=table.find(players,t['4'].Text)
+									local yeah=players[person]
+									table.remove(players,person)
+									table.insert(players,yeah.." **"..t['3'].Text..'** Egg Leaderboard '..t['5'].Text..' Eggs')
+								end
+							end
+						end
+					end
+					plrst2=table.concat(players, seperator)
+				else
+					plrst2=game.Players.LocalPlayer.Name
+				end
+				local function SendWebHook3()
+					local responce = request(
+						{
+							Url=url2,
+							Method= 'POST',
+							Headers= {
+								['Content-Type']='application/json'
+							},
+							Body = httpservice:JSONEncode({
+								embeds = {
+									{
+										image={url='https://cdn.discordapp.com/attachments/899026804952686592/1154554653627916318/Drawing-19.sketchpad_3.png'},
+										color=coler
+									},
+									{
+										title = '│📄│━━━━━Current ‎Server━━━━━│📄│‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ',
+										fields={
+											{
+												name = "**│:egg:│━━━Data━━━│:egg:│**",
+												value =  '   ‎↪**│⌛│Primordials│⌛│**\n     ‎'..primordials..'\n   ‎↪**│🌟│Secrets│🌟│**\n     ‎'..secrets,
+												inline = false
+											},
+											{
+												name = "**│:bust_in_silhouette:│━━━Main Account━━━│:bust_in_silhouette:│**",
+												value =  '‎ ‎ ‎ ‎↪**│:coin:│Coins│:coin:│**\n ‎   ‎ ‎‎'..pr.PlayerGui['1']:FindFirstChild('1'):FindFirstChild('1'):FindFirstChild('3'):FindFirstChild('3').Text..'\n**‎  ‎ ‎↪│:hammer_pick:│Bans│:hammer_pick:│**\n ‎   ‎ ‎'..stat2..'\n**‎  ‎ ‎↪│:egg:│Eggs│:egg:│**\n ‎   ‎ ‎'..stat..'\n** ‎ ‎ ‎↪│:exclamation:│Ping│:exclamation:│**\n ‎   ‎ ‎'..GetPing(),
+												inline = false
+											},
+											{
+												name = "**│:busts_in_silhouette:│━━━Players ‎ ‎In ‎ ‎Server━━━│:busts_in_silhouette:│**",
+												value =  ' ‎ ‎ ‎ ‎‎‎↪'..plrst2..'\n[**View Server**](https://www.roblox.com/games/8617208257/PIXEL-Banning-Simulator)',
+												inline = false
+											}
+										},
+										footer = {
+											text = hourString..":"..minuteString.." "..period,
+											icon_url='https://cdn.discordapp.com/attachments/899026804952686592/1153157777724801054/IMG_5949.jpg'
+										},
+										color = coler
+									}
+								}
+							})
+						})
+				end
+				spawn(SendWebHook3)
+			end
+		end
 end
-coroutine.wrap(LPFKCV_fake_script)()
+coroutine.wrap(LBXXAK_fake_script)()
